@@ -1,0 +1,28 @@
+.navbar {
+    background-color: black;
+    display: block;
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    float: right;
+}
+
+nav ol {
+    padding: 0;
+}
+
+nav ol li {
+    list-style-type: none;
+    list-style-position: outside;
+    text-align: center;
+}
+
+nav ol li a {
+    display: block;
+    align-items: center;
+    line-height: 25px;
+}
+
+.menutext {
+    color: whitesmoke;
+}
