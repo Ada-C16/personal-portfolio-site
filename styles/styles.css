@@ -1,37 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@sarahstandish
-sarahstandish /
-cascadiabookclub
-Public
-
-1
-1
-
-    0
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-
-    Settings
-
-cascadiabookclub/css/styles.css
-@sarahstandish
-sarahstandish first commit
-Latest commit 5eb0965 on Mar 30
-History
-1 contributor
-424 lines (353 sloc) 6.42 KB
 * {
     padding: 0;
     margin: 0;
@@ -41,7 +7,13 @@ History
     --accent-color-1: #2b31a1;
     --title-font: 'Syne', sans-serif;
     --body-font: 'Montserrat', sans-serif;
-    font-family: var(--body-font);
+}
+
+/* GENERAL */
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 a {
@@ -49,26 +21,39 @@ a {
     color: inherit;
 }
 
-.nav-button:hover {
-    color: var(--accent-color-1);
+h1 {
+    font-family: var(--title-font);
+    color: var(--text-color);
+    text-align: center;
 }
 
-.nav-button a:hover {
-    color: var(--accent-color-1);
+p {
+    font-family: var(--body-font);
+    color: rgb(44, 46, 45);
+    line-height: 1.4em;
 }
 
-.dropdown-container {
-    position: relative;
+ul {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* NAV */
+
+#nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--background-color);
+}
+
+.nav-item {
     display: inline-block;
-}
-
-.dropdown-container {
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.nav-button {
-    display: inline;
+    flex: auto;
     font-size: 2em;
     text-align: center;
     border: none;
@@ -79,12 +64,12 @@ a {
     font-weight: bold;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: var(--background-color);
+.nav-item:hover {
+    color: var(--accent-color-1);
+}
+
+.nav-item a:hover {
+    color: var(--accent-color-1);
 }
 
 nav a {
@@ -95,45 +80,47 @@ nav a {
     font-family: var(--title-font);
 }
 
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    overflow: scroll;
+#active {
+    opacity: .5;
 }
 
-.active {
-    background-color: var(--background-color);
+
+/* ABOUT  */
+
+.about-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.home-active {
-    color: var(--accent-color-1);
+.about-item-icon {
+    height: 50px;    
+    margin-right: 20px;
 }
 
-h1 {
-    font-family: var(--title-font);
-    color: var(--background-color);
+.about-item-description {
+    display: inline-block;
+    flex: auto;
 }
+
+
 
 h2 {
     font-family: var(--title-font);
     text-align: center;
     margin: 0 auto;
-    font-size: 2.4em;
+    font-size: 2em;
     padding: 5px;
     max-width: 1000px;
 }
 
-p {
-    font-family: var(--body-font);
-    color: rgb(44, 46, 45);
-    line-height: 1.4em;
-}
-
-.about {
+/* .about {
     text-align: justify;
-}
+} */
 
-.about a {
+/* .about a {
     text-decoration: none;
     color: var(--text-color);
 }
@@ -156,7 +143,7 @@ p {
     flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: center;
-}
+} */
 
 header {
     background-color: var(--text-color);
@@ -167,55 +154,24 @@ header {
     margin-bottom: 30px;
 }
 
-.front-page {
-    float: right;
-    width: 70%;
-    padding-left: 20px;
-}
 
-.front-page p {
-    font-size: 1.1em;
-    padding-top: 10px;
-}
 
-aside {
-    background-color: var(--text-color);
-    color: var(--background-color);
-    font-family: var(--body-font);
-    display: block;
-    width: 30%;
-    padding: 10px;
-    float: left;
-}
-
-aside a {
-    text-decoration: none;
-    color: var(--background-color);
-}
-
-aside a:hover {
-    color: var(--accent-color-1);
-}
-
-aside .book-cover img {
-    margin: 20px auto;
-    display: block;
-}
-
-ul {
-    list-style: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.photo {
-    max-width: 30%;
-}
-
-img {
+/* img {
     max-width: 90%;
     height: auto;
     margin: 5px auto;
+} */
+
+
+
+button, .btn, .logout-button {
+    display: block;
+    padding: 5px;
+    margin-top: 5px;
+    color: var(--background-color);
+    background-color: var(--accent-color-1);
+    width: 75px;
+    text-align: center;
 }
 
 footer {
@@ -229,6 +185,8 @@ footer {
     bottom: 0; */
     width: 100%;
 }
+
+/* FOOTER */
 
 footer ul {
     margin: 0 auto;
@@ -248,210 +206,4 @@ footer li {
 footer a {
     text-decoration: none;
     color: var(--text-color);
-}
-
-#flag {
-    max-height: 150px;
-    width: auto;
-    display: block;
-}
-
-.book-cover-flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.book-cover img {
-    height: 300px;
-    width: auto;
-    margin: 10px;
-    border: 2px solid var(--background-color);
-}
-
-.book-cover img:hover {
-    opacity: .5;
-}
-
-.book-info {
-    font-size: 1.5em;
-    margin: 5px;
-    display: block;
-    max-width: 70%;
-}
-
-.book-info p {
-    padding: 5px 0px;
-}
-
-.book-info a {
-    color: var(--text-color);
-}
-
-.book-info a:hover {
-    color: var(--accent-color-1);
-}
-
-.book-view-cover img {
-    float: left;
-    height: 300px;
-    width: auto;
-}
-
-.info-type {
-    font-weight: bold;
-    color: var(--accent-color-1);
-}
-
-form {
-    max-width: 600px;
-    margin: 20px auto;
-}
-fieldset {
-    padding: 10px;
-    border: 3px solid var(--accent-color-1);
-}
-label {
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 5px;
-    font-family: var(--title-font);
-    font-weight: bold;
-    font-size: 1.2em;
-    color: var(--accent-color-1);
-}
-
-input[type=text], input[type=email], input[type=number], input[type=password], input[type=tel] {
-    width: 50%;
-    margin-bottom: 10px;
-    padding: 3px;
-    border-radius: 5px;
-}
-
-.greeting {
-    display: block;
-    font-size: 1.5em;
-}
-
-
-button, .btn, .logout-button {
-    display: block;
-    padding: 5px;
-    margin-top: 5px;
-    color: var(--background-color);
-    background-color: var(--accent-color-1);
-    width: 75px;
-    text-align: center;
-}
-
-textarea {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-form ul {
-    margin-left: 20px;
-    list-style-type: none;
-    margin-bottom: 10px;
-    font-family: var(--body-font)
-}
-
-.box {
-    width: 400px;
-    margin: 20px auto;
-    padding: 10px;
-}
-
-.error {
-    display: block;
-    color: var(--accent-color-1);
-    font-family: var(--body-font);
-    font-weight: bold;
-}
-
-.reset a {
-    color: var(--text-color);
-    display: block;
-    padding-top: 5px;
-}
-
-.error {
-    color: red;
-}
-
-.daily {
-    border: 2px solid var(--text-color);
-    border-radius: 3px;
-}
-
-#Sunday p{
-    color: #6D2E46 !important;
-}
-
-#Monday p {
-    color: #002400  !important;
-}
-
-#Tuesday p {
-    color: #1982C4 !important;
-}
-
-#Wednesday p {
-    color: #E0A500 !important;
-}
-
-#Thursday p {
-    color: #23395B !important;
-}
-
-#Friday p {
-    color: #6969B3 !important;
-}
-
-#Saturday p {
-    color: #5F7481 !important;
-}
-
-.map {
-    width: 50%;
-}
-
-.map img {
-    max-height: 400px;
-    width: auto;
-    display: block;
-    float: right;
-}
-
-.map-name {
-    font-family: var(--title-font);
-    margin-top: 100px;
-    font-size: 1.5em;
-    color: var(--text-color);
-}
-
-.map-description {
-    max-width: 50%;
-    padding-left: 20px;
-}
-
-.centered {
-    margin: 0 auto;
-}
-
-.welcome-logout {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    border: 1px solid var(--accent-color-1);
-    padding: 10px;
-}
-
-.success {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    border: 1px solid blue;
-    padding: 10px;
 }
