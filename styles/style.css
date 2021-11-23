@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    color: darkmagenta;
+    border-color:palevioletred;  
+    border-width: .15em;  
+    border-style: dotted;  
+    font: bold;
+    font-family:fantasy
+
+}
+
+p {
+    color: navy;
+}
+.navlink {
+    font-family: fantasy;
+    font-size: 20px;
+}
