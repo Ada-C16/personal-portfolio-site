@@ -14,6 +14,9 @@
 body {
     background-color: var(--background-color);
     color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -228,8 +231,8 @@ footer {
     border-top: 5px solid var(--text-color);
     border-bottom: 5px solid var(--text-color);
     font-weight: bold;
-    bottom: 0;
     width: 100%;
+    margin-top: auto;
 }
 
 footer ul {
@@ -250,4 +253,17 @@ footer li {
 footer a {
     text-decoration: none;
     color: var(--text-color);
+}
+
+@media only screen and (max-width:600px) {
+    .about-item {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px
+    }
+
+    #projects {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
