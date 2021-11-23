@@ -1,0 +1,30 @@
+header, nav {
+    background-color: #F0967F;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    height: 80px;
+}
+
+header {
+    margin-top: 80px;
+}
+
+.text {
+    color: #5B1B0E;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 30px;
+}
+
+/* h1 {
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    padding: 30px;
+} */
