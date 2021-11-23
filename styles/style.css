@@ -1,0 +1,20 @@
+header {
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    color: #49fb35;
+}
+
+body {
+    font-family: monospace;
+    font-size: medium;
+    color: white;
+}
+
+nav {
+    text-decoration-style: wavy;
+}
+
+html {
+    background-color: black;
+}
