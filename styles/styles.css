@@ -16,6 +16,7 @@ nav {
     color: #FFC100;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 14pt;
+    color: #f0967f
 }
 header {
     margin-top: 80px;
@@ -48,7 +49,7 @@ a {
 }
 
 a:hover {
-    color:#f0967f;    
+    color:#FFC100;    
 }
 
 .nav-links {
@@ -63,7 +64,7 @@ a:hover {
 }
 
 .nav-links:hover {
-    color:#5b1b0e;
+    color:#0f8b8d;
 }
 
 #nav-bar {
@@ -72,4 +73,12 @@ a:hover {
 
 #first-nav-link {
     padding-left: 0px;
+}
+
+.project-description {
+    color:#f0967f;
+}
+
+.footer-text {
+    color: #0f8b8d;
 }
