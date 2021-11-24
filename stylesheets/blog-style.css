@@ -1,0 +1,62 @@
+body {
+  background-color: #0b0b0b;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.08em;
+}
+
+footer {
+  font-size: 1em;
+  padding-top: 50px;
+  margin: 0 auto;
+  color: rgb(73, 66, 57);
+  text-align: center;
+}
+
+h1 {
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  text-align: center;
+  color: bisque;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 100px 0;
+}
+
+img {
+  margin: 0 auto;
+  max-width: 400px;
+  display: block;
+}
+
+nav {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.3em;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+  list-style: none;
+}
+
+a:visited {
+  color: rgb(141, 123, 97);
+  text-decoration: none;
+}
+
+a:link {
+  color: rgb(198, 245, 235);
+  text-decoration: none;
+}
+
+.about {
+  margin-top: 3em;
+  color: rgb(198, 245, 235);
+}
