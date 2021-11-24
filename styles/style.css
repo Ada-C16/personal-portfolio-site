@@ -1,5 +1,7 @@
 
-.nav {
+header {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0db5ba;
 }
