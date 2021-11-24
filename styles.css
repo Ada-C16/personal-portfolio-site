@@ -1,0 +1,30 @@
+
+/*NAV */
+.main-nav, .footer-nav{
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-nav li,
+.footer-nav li {
+    padding: 1em;
+    list-style: none;
+}
+
+.main-nav a, 
+.footer-nav a {
+    text-decoration: none;
+}
+
+/*HEADER/COVER */
+.name {
+    text-align: center;
+}
+
+/*INDEX BODY */
+
+/*FOOTER*/
+.footer {
+    background-color: pink ;
+}
