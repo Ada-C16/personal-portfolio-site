@@ -47,6 +47,10 @@ h2 {
     text-decoration: underline;
   }
 
+#hello {
+  font-family: 'Righteous', cursive;
+  font-size: 40px;
+}
 h3 {
     color: pink;
     font-family: helvetica, sans-serif;
