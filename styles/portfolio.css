@@ -1,0 +1,15 @@
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-around;
+}
+
+article img{
+    width: 300px;
+    height: 300px;
+}
+
+    
+    
+    
