@@ -1,0 +1,61 @@
+.intro {
+    font-family:fantasy;
+    font-style:italic;
+    width: 300px;
+    
+}
+
+.header-text {
+    background-image:url(/images/banner-leaves.jpg);
+    background-position: center;
+    text-align: center;
+    padding: 50px
+}
+
+.title {
+    font-family: fantasy;
+    font-size: 40px;
+    background-color: rgb(78, 4, 78);
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+}
+
+body {
+    background-color: rgb(127, 155, 139);
+}
+
+.description {
+    font-family: cursive;
+    font-size: 20px;
+    text-indent: 25px;
+    display: grid;
+    grid-template: 600px;
+    padding: 10px
+}
+
+.emphasize {
+    text-align: center;
+    font-size: 25px;
+}
+
+a:link, a:visited {
+    background-color: rgb(78, 4, 78);
+    color: white;
+    padding-block-start: 5px;
+    padding-block-end: 10px;
+    text-align: center;
+    text-decoration: none;
+    display:inline;
+}
+
+.nav-links {
+    display:grid;
+    grid-auto-columns: 1fr 1fr;
+}
+
+.main {
+    font-family: fantasy;
+    background-color: rgb(93, 52, 109);
+    padding-block-start: 5px;
+    text-align: center;
+}
