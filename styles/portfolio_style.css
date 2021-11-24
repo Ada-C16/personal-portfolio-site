@@ -42,7 +42,6 @@
     background-color: black;
     opacity: 75%;
     color: whitesmoke;
-    text-align: center;
     border-radius: 15px;
     font-family: arial;
     justify-content: left;
@@ -61,10 +60,16 @@
 
 .tech_stack_title {
     font-weight: 700;
+    text-align: center;
 }
 
-.tech_stack_list {
+ul .tech_stack_list {
     list-style-type: circle;
     list-style-position: outside;
+}
+
+.card a {
+    display: flex;
+    justify-content: center;
 }
 
