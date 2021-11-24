@@ -1,0 +1,53 @@
+body {
+    font-family: Helvetica;
+    background-color: #009e9e;
+}
+
+header, footer {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    background-color:rgb(116, 115, 112);
+    border-style: solid;
+}
+
+p {
+    font-weight: bold;
+    line-height: 150%;
+    color: darkslategrey;
+}
+
+
+main{
+    padding: 1% 0 1% 0;
+
+}
+
+footer{
+    height: 20%;
+    clear: both;
+
+}
+
+img {
+    width: 1200px;
+    height:1000px;
+    display: block;
+    margin: auto;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    list-style-type: none;
+}
+
+
+#about-me {
+    display: inline-block;
+    width: 40%
+
+}
