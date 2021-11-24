@@ -12,19 +12,41 @@ nav {
 
 header {
     margin-top: 80px;
+    border-collapse:collapse;
 }
 
 .text {
     color: #5B1B0E;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    padding: 30px;
 }
 
-/* h1 {
-    padding: 30px;
+h1 {
+    padding: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p {
     padding: 30px;
-} */
+}
+
+a {
+    font-family: sans-serif;
+    color:lightcoral;
+}
+
+.nav-links {
+    color: white;
+    font-family: sans-serif;
+    float: left;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#nav-bar {
+    list-style-type: none;
+}
+
+#first-nav-link {
+    padding-left: 0px;
+}
