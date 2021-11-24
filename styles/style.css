@@ -2,17 +2,3 @@ body {
     font-family: sans-serif;
     background-color: #009e9e;
 }
-
-h1 {
-    color: midnightblue;
-    text-decoration: underline;
-    text-align: center;
-}
-
-p {
-    line-height: 150%;
-    color: darkslategrey;
-}
-section {
-    background-color: ghostwhite;
-}
