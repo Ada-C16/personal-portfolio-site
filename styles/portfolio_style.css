@@ -1,0 +1,70 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 10px;
+}
+
+#github_section_header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    width: 100%;
+}
+#github_img {
+    max-width: 100px;
+}
+
+#github_content {
+    flex: 1;
+    padding: 10px;
+    font-family: Arial;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border-radius: 15px;
+    background-color: rgb(17, 166, 220);
+    padding: 15px;
+    margin-right: 25px;
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_footer {
+    background-color: black;
+    opacity: 75%;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 15px;
+    font-family: arial;
+    justify-content: left;
+}
+
+.card_image {
+    border-radius: 15px;
+    width: 35%;
+}
+
+.card_title {
+    font-family: arial;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.tech_stack_title {
+    font-weight: 700;
+}
+
+.tech_stack_list {
+    list-style-type: circle;
+    list-style-position: outside;
+}
+

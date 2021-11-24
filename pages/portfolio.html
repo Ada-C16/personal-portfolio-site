@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="../styles/style.css" rel="stylesheet">
   <link href="../styles/portfolio_style.css" rel="stylesheet">
-  <title>Document</title>
+  <title>Jesse's Portfolio</title>
 </head>
 <body>
+  <!-- page title and navigation bar -->
   <header>
     <nav class="navbar">
       <ol>
@@ -20,10 +21,44 @@
         </li>
       </ol>
     </nav>
-    <h1>
+    <h1 class="page_title">
       Jesse's Portfolio
     </h1>
   </header>
+
+  <!-- main content container section -->
+  <section class="container">
+    <div id="github_section_header">
+      <img id="github_img" src="../images/github_logo_rainbow.jpg" alt="">
+      <p id="github_content">Below are some project highlights from my GitHub. <br> You can check out all of my work on my GitHub at 
+        <a href="https://github.com/jessepope"> github.com/jessepope</a></p>
+    </div>
+
+    <div class="card">
+      <div class="card_content">
+        <a href="https://github.com/jessepope/task-list-api"> 
+          <img class="card_image" src="../images/task_list_img.png" alt="">
+        </a>
+        <h3 class="card_title">Task List API</h3>
+        <footer class="card_footer">
+          <p class="tech_stack_title">Tech Stack:</p>
+          <ul class="tech_stack_list">
+            <li>Python</li>
+            <li>Flask</li>
+            <li>SQLAlchemy</li>
+            <li>Heroku</li>
+          </ul>
+        </footer>
+      </div>
+    </div>
+
+    <div class="card">
+  
+    </div>
+
+  </section>
+
+  <!-- footer -->
   <footer>&copy; Copyright 2021 Jesse Pope</footer>
 </body>
 </html>

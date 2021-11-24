@@ -26,3 +26,11 @@ nav ol li a {
 .menutext {
     color: whitesmoke;
 }
+
+.menutext:hover {
+    background-color: rgb(17, 166, 220);
+}
+
+.page_title {
+    font-family: Impact
+}
