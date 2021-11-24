@@ -1,0 +1,46 @@
+body {
+    
+}
+
+header{
+    text-align: center;
+}
+.page-title {
+    color: rgb(89, 119, 36);
+    text-transform:uppercase;
+}
+
+.page-subtitle {
+    color: rgb(89, 119, 36);
+    text-transform:lowercase;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 20px;
+
+}
+
+a {
+    color: mediumpurple;
+}
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  footer {
+    color: rgb(89, 119, 36);
+    display: flex;  
+    justify-content:center;
+    column-gap: 10px;
+    font-size: 20px;
+  }
