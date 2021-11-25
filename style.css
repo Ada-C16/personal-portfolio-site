@@ -1,0 +1,118 @@
+
+/* styling that applies to all pages */
+
+header {
+    background-color: rgb(140, 140, 170);
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color:gainsboro;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 35px;
+}
+
+h2 {
+    text-align: center;
+
+}
+.main-content {
+    padding: 20px;
+    height: 60vh;
+    text-align: center;
+
+}
+
+.nav-links {
+    padding: 1em;
+    display :flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+
+.nav-links a:hover{
+    color: white;
+}
+
+footer {
+    background-color: rgb(140, 140, 170);
+    
+
+}
+
+/* about.html styling */
+
+img {
+    width:20%;
+    border-radius: 5px 5px 0 0;
+    padding: 1em;
+}
+
+
+
+/* portfolio.html styling */
+
+.portfolio-info {
+    padding: 20px;
+    height: 60vh;
+
+}
+
+.portfolio-info h2 {
+    padding-top: 0px;
+    margin-top: 15px;
+    padding-bottom: 8px;
+    font-size: 30px;
+    font-family: Arial;
+    color:black;
+}
+
+
+.links{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    list-style-type: none;
+}
+
+nav img{
+    width:90%;
+    height: 70%;
+    padding-bottom: 0;
+    padding-top:0px;
+    
+}
+
+figcaption{
+    text-align: center;
+}
+
+
+ /* index.html styling */
+
+.welcome-content {
+    width:100%;
+    height:10px;
+    padding-bottom:220px;
+} 
+
+.main-content h2 {
+    padding-top: 0px;
+    margin: 0px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
