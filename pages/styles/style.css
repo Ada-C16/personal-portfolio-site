@@ -1,0 +1,112 @@
+body {
+    background-color:bisque
+
+}
+
+header {
+    background-color: cornsilk;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#nav_links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#content {
+    width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color:rgb(165, 194, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.meat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+}
+
+footer {
+    background-color: cornsilk;
+}
+
+#footer_links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    padding: 5%;
+}
+h1{
+    /* font-style: oblique; */
+    font-family:sans-serif;
+    text-decoration:wavy;
+}
+
+li {
+    font-family:sans-serif
+}
+
+.projects {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+a:hover{
+    background-color: khaki;
+}
+
+#video_store {
+    background-color: lavenderblush;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:8px solid rgb(165, 194, 248);
+}
+
+#ada_grams {
+    background-color:silver;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:8px solid rgb(165, 194, 248);
+}
+
+#vim_lightning_talk {
+    background-color: lawngreen;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:8px solid rgb(165, 194, 248);
+}
+
+#swap_meet {
+    background-color: lightsalmon;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:8px solid rgb(165, 194, 248);
+}
