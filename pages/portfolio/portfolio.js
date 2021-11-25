@@ -1,43 +1,68 @@
 const portfolioPieces = [
     {
-        id: 1, 
-        title: "munthir",
-        img: 0,
-        medium: "linocut",
-        page: "",
-        desc: "things"
+      id: 1, 
+      title: "brush your teeth",
+      img: "../portfolio/brush-your-teeth/images/brush-your-teeth.jpg",
+      medium: "linocut",
+      page: "",
+      desc: "here to offer (m)oral support"
     },
     {
-        id: 2,
-        title: "lost at sea",
-        img:"",
-        medium: "digital",
-        page: "",
-        desc: ""
+      id: 2,
+      title: "lost at sea",
+      img:"../portfolio/lost-at-sea/images/lost-at-sea.jpg",
+      medium: "digital",
+      page: "",
+      desc: ""
     },
     {
-        id: 3, 
-        title: "brush your teeth",
-        img: "",
-        medium: "linocut",
-        page: "",
-        desc: "here to offer (m)oral support"
+      id: 3, 
+      title: "munthir",
+      img: "../portfolio/munthir/images/munthir.jpg",
+      medium: "linocut",
+      page: "",
+      desc: "things"
     },
     {
-        id: 4, 
-        title: "rolling in the deep",
-        img: "",
-        medium: "linocut",
-        page: "",
-        desc: "you ever feel like you're sinking and sinking so far down"
+      id: 4,
+      title: "the goddess (on the go)",
+      img:"../portfolio/pocket-worship/images/goddess-pocket.jpg",
+      medium: "linocut",
+      page: "",
+      desc: ""
     },
     {
-        id: 5,
-        title: "sweet tomatoes",
-        img: "../portfolio/sweet-tomatoes/images/sweet-tomatoes.jpg",
-        medium: "linocut",
-        page: "",
-        desc: "a goddess and her lover"
+      id: 5,
+      title: "the goddess (for puja)",
+      img: "../portfolio/puja/images/goddess-puja.jpg",
+      medium: "linocut",
+      page:"",
+      desc: ""
+    },
+
+    {
+      id: 6, 
+      title: "rolling in the deep",
+      img: "",
+      medium: "linocut",
+      page: "../portfolio/rolling-in-the-deep/images/rolling-in-the-deep.jpg",
+      desc: "you ever feel like you're sinking and sinking so far down"
+    },
+    {
+      id: 7,
+      title: "sweet tomatoes",
+      img: "../portfolio/sweet-tomatoes/images/sweet-tomatoes.jpg",
+      medium: "linocut",
+      page: "",
+      desc: "a goddess and her lover"
+    },
+    {
+      id: 8,
+      title: "thru the peephole",
+      img: "../portfolio/thru-the-peephole/images/thru-the-peephole.jpg",
+      medium: "linocut",
+      page: "",
+      desc: "series 'In My Home'"
     }
 ]
 
