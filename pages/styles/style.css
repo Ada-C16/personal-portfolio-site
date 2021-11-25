@@ -1,0 +1,72 @@
+/* body {
+    font-family: sans-serif;
+    background-color: #009e9e;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: midnightblue;
+}
+
+p {
+    line-height: 150%;
+    color: darkslategrey;
+}
+section{
+    background-color: ghostwhite;
+}
+ul{
+    list-style-type: circle;
+}
+ol{
+    list-style-type: circle;
+} */
+
+html { 
+    background: url(/pages/sailormoon.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* body{
+    background-image:url(/pages/sailormoon.png) no-repeat;
+} */
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    color: hotpink;
+}
+
+a:hover{
+    color: orange;
+}
+
+a:visited{
+    color: pink;
+}
+
+ul{
+    list-style-type: circle;
+    /* display: flex;
+    flex-direction: column; */
+    
+}
+section{
+    background-color:lavender;
+    display: inline-flex;
+    flex-direction: column;
+    padding-right: 8vw;
+}
+
+h3{
+    font: weight 300px;
+    font-family:monospace;
+    font-style: italic;
+}
+
