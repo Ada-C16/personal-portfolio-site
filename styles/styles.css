@@ -4,7 +4,7 @@
     box-sizing: border-box;
     --background-color: #F1F2F6;;
     --text-color: #296e4e;
-    --accent-color-1: #2b31a1;
+    --accent-color-1: #56638A;
     --title-font: 'Syne', sans-serif;
     --body-font: 'Montserrat', sans-serif;
 }
@@ -60,6 +60,11 @@ header {
 
 /* NAV */
 
+nav {
+    width: 600px;
+    margin: 0 auto;
+}
+
 #nav-list {
     display: flex;
     flex-direction: row;
@@ -105,12 +110,18 @@ nav a {
 
 /* ABOUT  */
 
+.about {
+    padding-bottom: 30px;
+}
+
 .about-item {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px
 }
 
 .about-item-icon {
@@ -127,6 +138,7 @@ nav a {
 
 h2 {
     font-family: var(--title-font);
+    color: var(--text-color);
     text-align: center;
     margin: 0 auto;
     font-size: 1.5em;
@@ -140,17 +152,25 @@ h2 {
 }
 
 .projects-item {
-    border: 3px solid var(--text-color);
+    border: 3px solid var(--accent-color-1);
     border-radius: 5px;
     margin: 10px;
     padding: 10px;
     max-width: 300px;
+    box-shadow: 3px 3px;
+    color: var(--accent-color-1);
 }
 
 .language-icon img {
-    max-height: 40px;
-    background: transparent;
-    background-color: var(--background-color);
+    color: var(--accent-color-1);
+    height: 40px;
+    width: 40px;
+    opacity: .7;
+}
+
+.language-icon img:hover {
+    width: 45px;
+    height: 45px;
 }
 
 .language-icon {
@@ -163,11 +183,12 @@ h2 {
     margin: 10px auto;
     display: flex;
     justify-content: center;
+    height: 45px;
 }
 
 .project-description {
     text-align: justify;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-bottom: 15px;
 }
 
@@ -256,11 +277,6 @@ footer a {
 }
 
 @media only screen and (max-width:600px) {
-    .about-item {
-        flex-direction: column;
-        text-align: center;
-        padding: 10px
-    }
 
     #projects {
         flex-direction: column;
