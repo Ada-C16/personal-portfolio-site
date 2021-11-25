@@ -13,9 +13,14 @@ h1 {
     margin-bottom: 0;
 }
 
-nav {
+nav ul {
     display: flex;
+    list-style: none;
     justify-content: center;
+}
+
+nav li {
+    padding: 0 0.75rem;
 }
 
 a:link {
