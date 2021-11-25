@@ -1,0 +1,15 @@
+header, footer{background-color:bisque;
+    border: 2px solid yellow;}
+body{background-color: wheat;}
+
+
+.container{
+    display: flex;
+    background-color: rgb(152, 212, 247);
+    
+    flex-direction: column;}
+
+.secondrow {display:flex;
+            flex-direction:row}
+#AboutMe{align-self:center}
+
