@@ -1,6 +1,6 @@
 
 * {
-    background-color: #EFF1ED;
+    background-color: #FCF7FF;
     /* #FDE8CD; */
     font-family: 'Lexend Exa', sans-serif;
     color: #C08497;
@@ -25,9 +25,9 @@ header.container {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.name {
+#name {
     align-self: flex-start;
-    margin: 0
+    margin: 0px;
 }
 nav {
     align-self: flex-end;
