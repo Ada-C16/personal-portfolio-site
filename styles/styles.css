@@ -1,0 +1,88 @@
+
+* {
+    background-color: #FCF7FF;
+    /* #FDE8CD; */
+    font-family: 'Lexend Exa', sans-serif;
+    color: #C08497;
+
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active{
+     text-decoration:none;
+     padding-left: 5px;
+     padding-right: 5px;
+}
+ /* HEADER STYLE */
+header.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#name {
+    align-self: flex-start;
+    margin: 0px;
+}
+nav {
+    align-self: flex-end;
+}
+
+/* MAIN CONTENT STYLE */
+main.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: auto;
+    padding: 0;
+    font-size: 5em;
+}
+p.intro {
+    text-align: center;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8em;
+}
+footer.intro {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+/* PROJECT IMAGES STYLE */
+
+div.wrapper {
+    margin: 50px auto;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+a.link {
+    display: inline-block;
+    width: 168px;
+    padding: 0;
+}
+.github, 
+.lightning-talk {
+    height: 75%;
+    width: 75%;
+    font-size: 0.8em;
+}
+
