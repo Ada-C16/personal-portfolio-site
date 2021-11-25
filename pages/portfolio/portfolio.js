@@ -34,24 +34,23 @@ const portfolioPieces = [
     {
         id: 5,
         title: "sweet tomatoes",
-        img: "",
+        img: "../portfolio/sweet-tomatoes/images/sweet-tomatoes.jpg",
         medium: "linocut",
         page: "",
         desc: "a goddess and her lover"
     }
-
-
 ]
 
-const btnContainer = document.querySelector(".btn-container")
+
 const portfolioView = document.querySelector(".art")
+const btnContainer = document.querySelector(".btn-container")
 
 window.addEventListener("DOMContentLoaded", function () {
-    diplayProjectItems(portfolioPieces);
+    diplayportfolioPieces(portfolioPieces);
     displayProjectButtons();
   });
   
-  function diplayProjectItems(portfolioPieces) {
+  function diplayportfolioPieces(portfolioPieces) {
     let displayProject = portfolioPieces.map(function (item) {
       // console.log(item);
   
@@ -61,7 +60,7 @@ window.addEventListener("DOMContentLoaded", function () {
               <header>
                 <h4>${item.title}</h4>
               </header>
-              <p class="item-text">
+              <p class="piece-text">
                 ${item.desc}
               </p>
             </div>
@@ -95,17 +94,16 @@ window.addEventListener("DOMContentLoaded", function () {
   
     filterBtns.forEach(function (btn) {
       btn.addEventListener("click", function (e) {
-        // console.log(e.currentTarget.dataset);
         const medium = e.currentTarget.dataset.id;
-        const projectmedium = portfolioPieces.filter(function (projectItem) {
-          if (projectItem.medium === medium) {
-            return projectItem;
+        const projectmedium = portfolioPieces.filter(function (portfolioPiece) {
+          if (portfolioPiece.medium === medium) {
+            return portfolioPiece;
           }
         });
         if (medium === "all") {
-          diplayProjectItems(portfolioPieces);
+          diplayportfolioPieces(portfolioPieces);
         } else {
-          diplayProjectItems(projectmedium);
+          diplayportfolioPieces(projectmedium);
         }
       });
     });
