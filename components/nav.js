@@ -6,15 +6,15 @@ class Header extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
         <style>
-        @import "../components/stylesnav.css";
+        @import "/components/stylesnav.css";
         </style>
         <header>
           <nav>
           <div class="nav-links">
             <ul class="links">
-              <li><a href="../pages/index.html">home</a></li>
-              <li><a href="../pages/about.html">about</a></li>
-              <li><a href="../pages/portfolio/portfolio.html">portfolio</a></li>
+              <li><a href="/pages/index.html">home</a></li>
+              <li><a href="/pages/about.html">about</a></li>
+              <li><a href="/pages/portfolio/portfolio.html">portfolio</a></li>
             </ul>
           </div>
           <div class = "media">
