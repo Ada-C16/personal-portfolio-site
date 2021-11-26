@@ -4,7 +4,7 @@ const portfolioPieces = [
       title: "brush your teeth",
       img: "../portfolio/brush-your-teeth/images/brush-your-teeth.jpg",
       medium: "linocut",
-      page: "",
+      page: "../portfolio/brush-your-teeth/brush-your-teeth.html",
       desc: "here to offer (m)oral support"
     },
     {
@@ -12,7 +12,7 @@ const portfolioPieces = [
       title: "lost at sea",
       img:"../portfolio/lost-at-sea/images/lost-at-sea.jpg",
       medium: "digital",
-      page: "",
+      page: "../portfolio/lost-at-sea/lost-at-sea.html",
       desc: ""
     },
     {
@@ -20,7 +20,7 @@ const portfolioPieces = [
       title: "munthir",
       img: "../portfolio/munthir/images/munthir.jpg",
       medium: "linocut",
-      page: "",
+      page: "../portfolio/munthir/munthir.html",
       desc: "things"
     },
     {
@@ -28,7 +28,7 @@ const portfolioPieces = [
       title: "the goddess (on the go)",
       img:"../portfolio/pocket-worship/images/goddess-pocket.jpg",
       medium: "linocut",
-      page: "",
+      page: "../portfolio/pocket-worship/pocket-worship.html",
       desc: ""
     },
     {
@@ -36,16 +36,16 @@ const portfolioPieces = [
       title: "the goddess (for puja)",
       img: "../portfolio/puja/images/goddess-puja.jpg",
       medium: "linocut",
-      page:"",
+      page:"../portfolio/puja/puja.html",
       desc: ""
     },
 
     {
       id: 6, 
       title: "rolling in the deep",
-      img: "",
+      img: "../portfolio/rolling-in-the-deep/images/rolling-in-the-deep.jpg",
       medium: "linocut",
-      page: "../portfolio/rolling-in-the-deep/images/rolling-in-the-deep.jpg",
+      page: "../portfolio/rolling-in-the-deep/rolling-in-the-deep.html",
       desc: "you ever feel like you're sinking and sinking so far down"
     },
     {
@@ -53,7 +53,7 @@ const portfolioPieces = [
       title: "sweet tomatoes",
       img: "../portfolio/sweet-tomatoes/images/sweet-tomatoes.jpg",
       medium: "linocut",
-      page: "",
+      page: "../portfolio/sweet-tomatoes/sweet-tomatoes.html",
       desc: "a goddess and her lover"
     },
     {
@@ -61,7 +61,7 @@ const portfolioPieces = [
       title: "thru the peephole",
       img: "../portfolio/thru-the-peephole/images/thru-the-peephole.jpg",
       medium: "linocut",
-      page: "",
+      page: "../portfolio/thru-the-peephole/thru-the-peephole.html",
       desc: "series 'In My Home'"
     }
 ]
