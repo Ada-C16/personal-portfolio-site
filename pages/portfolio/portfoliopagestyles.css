@@ -2,10 +2,23 @@
 
 .art-content {
     display: flex;
-    margin: 10%;
+    margin: 2% 10% 2%;
+    background-color: var(--clr-grey-4);
 }
 
 .col {
     flex: 50%;
     padding: 5%;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 12px;
 }
