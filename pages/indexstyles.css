@@ -1,6 +1,5 @@
 @import "../styleconstants.css";
 
-
 .title {
   margin-top: 15vh;
   margin-bottom: 4rem;
@@ -10,7 +9,10 @@
   text-align: center;
 }
 .section-center {
-  max-width: var(--fixed-width);
+  max-width: 60%;
+  margin: 10%;
+  margin-left: 19%;
+  /* i have no fucking clue whats pushing section-center to the left */
 }
 .question {
   background: var(--clr-white);
