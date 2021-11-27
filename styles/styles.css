@@ -278,6 +278,17 @@ footer a {
 
 @media only screen and (max-width:600px) {
 
+    /* NAV */
+    nav {
+        width: 100%;
+    }
+    
+    #nav-list {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    /* PORTFOLIO */
     #projects {
         flex-direction: column;
         justify-content: center;
