@@ -1,0 +1,42 @@
+body {
+    
+    background-image: url(/images/Floresrojas.jpeg); 
+    background-size: cover;
+
+} 
+
+
+
+.main-nav {
+    display:flex;
+    background-color: grey;
+    
+}
+
+h1 {
+    background-color: rgb(105, 103, 103);
+    
+    opacity: 60%;
+    color:thistle;
+    padding: 0.5em;
+    position:sticky;
+    top: 0;
+    
+}
+
+* {
+    color: rgb(226, 126, 159);
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 300px;
+}
+
+.Dog {
+    width:40%;
+    height: 40%;
+}
