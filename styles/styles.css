@@ -3,10 +3,10 @@
     margin: 0;
     box-sizing: border-box;
     --background-color: #F1F2F6;;
-    --text-color: #296e4e;
+    --text-color: #25554A;
     --accent-color-1: #56638A;
-    --title-font: 'Syne', sans-serif;
-    --body-font: 'Montserrat', sans-serif;
+    --title-font: 'Poiret One', sans-serif;
+    --body-font: 'Space Grotesk', sans-serif;
 }
 
 /* GENERAL */
@@ -204,7 +204,7 @@ h2 {
     padding: 5px;
     margin-top: 5px;
     color: var(--background-color);
-    background-color: var(--text-color);
+    background-color: var(--accent-color-1);
     width: 100px;
     text-align: center;
     font-family: var(--body-font);
@@ -213,7 +213,7 @@ h2 {
 }
 
 .button:hover {
-    background-color: var(--accent-color-1);
+    background-color: var(--text-color);
 }
 
 /* HOME PAGE */
