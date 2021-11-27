@@ -1,0 +1,100 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.5fr 0.5fr 1fr 0.2fr;
+    grid-template-areas: "nav nav nav nav"
+    "main main main main"
+    "title1 title2 title3 title4"
+    "content1 content2 content3 content4"
+    "footer footer footer footer";
+    grid-gap: 0.1rem;
+}
+
+main {
+    background: #ff355e;
+    grid-area: main;
+    color: white;
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    font-size: 175%;
+    text-align: center;
+    padding: 40px;
+}
+
+#title1, #title2, #title3, #title4, #content1, #content2, #content3, #content4 {
+    color: white;
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    padding: 40px;
+    font-size: 150%;
+    text-align: center;
+}
+
+#content1, #content2, #content3, #content4 {
+    font-size: 100%;
+    opacity: 80%;
+}
+
+#title1 {
+    background: #ff6b6b;
+    grid-area: title1; 
+}
+
+#title2 {
+    background: #ff5252;
+    grid-area: title2;
+}
+
+#title3 {
+    background: #ff3838;
+    grid-area: title3;
+}
+
+#title4 {
+    background: #dc143c;
+    grid-area: title4;
+}
+
+#title1 a:link, #title1 a:visited {
+    color: white;
+}
+
+#title2 a:link, #title2 a:visited {
+    color: white;
+}
+
+#title3 a:link, #title3 a:visited {
+    color: white;
+}
+
+#title4 a:link, #title4 a:visited {
+    color: white;
+}
+
+#content1 {
+    background: #ff6b6b;
+    grid-area: content1;
+}
+
+#content2 {
+    background: #ff5252;
+    grid-area: content2;
+}
+
+#content3 {
+    background: #ff3838;
+    grid-area: content3;
+}
+
+
+#content4 {
+    background: #dc143c;
+    grid-area: content4;
+}
+
+footer {
+    grid-area: footer;
+}

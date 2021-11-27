@@ -1,0 +1,48 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.2fr;
+    grid-template-areas: "nav nav nav"
+    "main main main"
+    "content1 content2 content3"
+    "footer footer footer";
+    grid-gap: 0.1rem;
+}
+
+main, #content1, #content2, #content3 {
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    grid-area: main;
+    background: #dc143c;
+    font-size: 175%;
+}
+
+#content1 {
+    grid-area: content1;
+    background: #ff6b6b ;
+    font-size: 120%;
+}
+
+#content2 {
+    grid-area: content2;
+    background: #ff5252;
+    font-size: 120%;
+}
+
+#content3 {
+    grid-area: content3;
+    background: #ff3838;
+    font-size: 140%;
+}
+
+footer {
+    grid-area: footer;
+}
