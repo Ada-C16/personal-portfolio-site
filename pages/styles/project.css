@@ -8,18 +8,15 @@ h1 {
   font-size: 3rem;
 }
 
-p,
-li {
-  font-size: 2rem;
-  color: goldenrod;
-}
-
-.list-style {
+nav {
   color: black;
-  list-style-type: none;
-  font-size: 1.5rem;
 }
 
-.list-style:hover {
+.link-style {
+  color: black;
+  font-size: 2rem;
+}
+
+.link-style:hover {
   color: goldenrod;
 }
