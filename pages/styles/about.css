@@ -1,3 +1,8 @@
+a {
+  margin-right: 25px;
+  text-decoration: none;
+}
+
 body {
   background-color: indigo;
   font-family: Bebas;
@@ -5,19 +10,20 @@ body {
 
 h1 {
   color: goldenrod;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-style: italic;
 }
 
 p,
 li {
-  font-size: 2rem;
+  font-size: 1.25rem;
   color: goldenrod;
 }
 
 .list-style {
   color: black;
   list-style-type: none;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .list-style:hover {

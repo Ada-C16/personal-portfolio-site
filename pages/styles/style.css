@@ -5,6 +5,7 @@ body {
 
 footer {
   color: goldenrod;
+  margin-top: 5%;
 }
 
 header {
@@ -15,6 +16,7 @@ header {
 h1 {
   color: goldenrod;
   font-size: 3.5rem;
+  font-style: italic;
 }
 
 img {
