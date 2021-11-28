@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+article {
+    width: 350px;
+    height: 350px;
+}
+
+.project1 {
+    background-color: #c9ffe2;
+}
+
+#project2 {
+    background-color: #cec3c1;
+}
+
+#project3 {
+    background-color: bisque;
+}
+
+.video-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-info {
+    padding: 10px 30px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 350px;
+}
+
+
