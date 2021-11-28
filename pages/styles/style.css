@@ -1,24 +1,20 @@
 body {
-  background-color: darkslateblue;
-  font-family: Didot;
+  background-color: indigo;
+  font-family: Bebas;
 }
 
 footer {
   color: goldenrod;
 }
+
 header {
   text-align: center;
-  text-decoration: underline;
   text-decoration-color: goldenrod;
 }
+
 h1 {
   color: goldenrod;
   font-size: 3.5rem;
-}
-
-h2 {
-  color: goldenrod;
-  font-size: 2rem;
 }
 
 img {
@@ -30,7 +26,7 @@ img {
 }
 
 li {
-  font-size: 1.75rem;
+  font-size: 2rem;
   list-style-type: none;
   text-align: center;
 }
