@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    display: grid;
+    height: 95vh;
+    grid-template-rows: 50px 20px 50px 1fr 50px;
+}
+
+
+
+a:visited {
+    color: turquoise;
+}
+
+h5 {
+    text-align: center;
+    justify-self: center;
+}
+
+nav {
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: center;
+}
+
+.projects {
+    display: flex;
+    width: 95vw;
+    justify-content: space-around;
+}
+
+.project {
+    width: 45vw;
+}
+
+img {
+    height: 200px;
+}
+
+footer {
+    font-size: 10pt;
+    align-self: baseline;
+    justify-self: center;
+    text-align: center;
+}
+
+::selection {
+    background:rgba(64, 224, 208, 0.386);
+}
