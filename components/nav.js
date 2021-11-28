@@ -6,7 +6,7 @@ class Header extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
         <style>
-        @import "/components/stylesnav.css";
+        @import "/components/stylescomponents.css";
         </style>
         <header>
           <nav>

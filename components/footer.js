@@ -5,10 +5,13 @@ class Footer extends HTMLElement {
   
     connectedCallback() {
       this.innerHTML = `
+        <style>
+            @import "/components/stylescomponents.css";
+        </style>
         <footer>
-          <div>
-          Copyright 2021; Karishma Johnson
-          </div>
+            <div>
+            Copyright 2021; Karishma Johnson
+            </div>
         </footer>
       `;
     }
