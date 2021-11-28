@@ -4,21 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="../styles/style.css" rel="stylesheet" />
   <title>Portfolio</title>
 </head>
-<body>
+<body id=portfolio-page class="container">
   <header>
     <h1>Portfolio</h1>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
+      <ul class="navigation">
+        <li class="item"><a href="index.html">Home</a></li>
+        <li class="item"><a href="about.html">About</a></li>
       </ul>
     </nav>
   </header>
   
-  <section id="interests">
+  <section id="interests" class="container">
     <h2>Interests</h2>
     <p>Words words words,
     How do you like it? How do you like it?
@@ -29,31 +29,33 @@
   </section>
   
   <section id="projects">
-    <div id="gallery" class="container flex row wrap animated">
-      <div class="mix react" style="display: inline-block;" data-bound>
+    <div id="gallery" class="gallery-container">
         <a href="https://github.com/lgaetano/retro-video-store">
+          <img alt="Vhs tape icon" src="images/vhs.png" />
           <h3>Retro Video Store</h3>
+          <!-- Icon Attribution: -->
         </a>
-      </div>
-      <div class="mix react" style="display: inline-block;" data-bound>
+
         <a href="https://github.com/lgaetano/solar_system_api">
+          <img alt="Solar system icon" src="images/solar-system.png" />
           <h3>Solar System API</h3>
+          <!-- Icon Attribution: Freepik https://www.freepik.com" -->
         </a>
-      </div>
-      <div class="mix react" style="display: inline-block;" data-bound>
+
         <a href="https://github.com/lgaetano/task-list-api">
+          <img alt="Clipboard checklist logo" src="images/clipboard.png" />
+          <!-- Icon Attribution: Kiranshastry at https://www.flaticon.com/authors/kiranshastry -->
           <h3>Task List API</h3>
         </a>
-      </div>
-      <div class="mix react" style="display: inline-block;" data-bound>
         <a href="https://www.youtube.com/watch?v=pais41IW5dk">
+          <img alt="" src="images/help.png" />
+          <!-- Icon Attribution: Freepik "https://www.freepik.com" -->
           <h3>Capstone</h3>
         </a>
-      </div>
     </div>
   </section>
   <footer>
-    <p>Lia Gaetano 2021</p>
+    <p>Lia Gaetano &copy2021</p>
   </footer>
 </body>
 </html>

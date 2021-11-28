@@ -1,0 +1,139 @@
+.container {
+    display: grid;
+    justify-items: center;
+}
+
+body {
+    background: #ade8f4;
+    color: #03045e;
+    margin: 0%;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+/* nav {
+    background: #03045e;
+    padding: .2em;
+} */
+
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  
+  list-style: none;
+  margin: 0; 
+  background: #03045e;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.navigation a:hover {
+  background: #1565C0;
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+/* Small screens switch to column flow*/
+@media all and (max-width: 500px) {
+    nav > ul {
+      flex-direction: column;
+    }
+  }
+
+.item {
+    /* justify-content: space-between; */
+}
+
+li {
+    list-style: none;
+    text-align: left;
+}
+
+h2 {
+    border: 12px;
+    padding: 0px 15%;
+}
+
+a {
+    color: #ade8f4;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    font-size: small;
+    text-align: center;
+}
+
+/* ********** */
+/* INDEX.HTML */
+/* ********** */
+
+#home-page {
+    color: #ade8f4;
+    background: #023e8a;
+}
+
+#introduction {
+    padding: 15%;
+}
+
+#home-nav {
+    background: deepskyblue;
+}
+
+.highlight {
+    color: deepskyblue;
+}
+
+.button {
+    font: bold 14px Arial;
+    text-decoration: none;
+    background-color: deepskyblue;
+    color: #03045e;
+    padding: 6px 10px 6px 10px;
+    border-radius: 15em;
+  }
+
+/* ********** */
+/* ABOUT.HTML */
+/* ********** */
+
+/* ************** */
+/* PORTFOLIO.HTML */
+/* ************** */
+
+.gallery-container {
+    grid-template: repeat(2, 2fr) / repeat(4, 2fr);
+}
+
+.gallery-container a {
+    color: #023e8a;
+}
