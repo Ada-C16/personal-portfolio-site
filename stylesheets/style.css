@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(61, 47, 57);
+    color:rgba(44, 36, 12, 0.877); 
+}
+
+/* FLEX STYLING  */
+
+.nav-container {
+    color: white; 
+    font-size: 1.5rem; 
+}
+.nav-container {
+    display:flex; 
+    place-content: space-between space-evenly; 
+}
+
+.homepage {
+display: flex; 
+width: 500px
+}
+
+/* GRID STLYING */
+.container {
+    display: grid; 
+    /* max-width: 700px;
+    margin: auto; 
+    margin-top: 4rem; 
+    height: 250px;
+    grid-template: 15% auto 20% / 1fr 3fr;  */
+    grid-template-areas: "nav nav nav nav"
+                        "main main main main"
+                        "foot foot foot foot";
+    gap: 1rem; 
+    max-width: 700px;
+    margin: auto;
+    margin-top: 4rem;
+    grid-template-columns: repeat(5,1fr);
+    /* grid-template-rows: 150px lfr;  */
+}
+.nav-container {
+    grid-area: nav; 
+    background-color: rgb(204, 127, 127);
+    margin-top: 1rem;
+    color: white
+}
+.content {
+    grid-area: main;
+    background-color:white;
+}
+.container {
+    grid-area: container;
+    background-color:white;
+}
+.footer {
+    grid-area: foot;
+    background-color:white;
+}
+
+/* HEADER STYLING */
+.header {
+    grid-area: head;
+    background-color:black;
+    color: white; 
+    font-family: sans-serif;
+    max-width: 1400px;
+    margin: auto;
+    padding: 0; 
+}
+
+.line {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+}
+
+.name {
+    display: flex;
+    justify-content:space-between;
+    align-items:center; 
+}
+
+.name h1{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin: 0; 
+    margin-bottom: 0.7rem;
+}
+
+/* #portrait {
+    grid-area: portrait;
+    max-width: 450px;
+    padding-bottom: 10rem;
+} */
+
+.footer {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 15px;
+    display: float;
+}
