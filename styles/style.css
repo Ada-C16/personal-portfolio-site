@@ -20,10 +20,6 @@ nav ul {
     padding-left: 0;
 }
 
-.unsplash {
-    font-size: 0.25em;
-    text-align: center;
-}
 
 nav li {
     padding: 0 0.75rem;
@@ -40,11 +36,27 @@ body {
     flex-direction: column;
 }
 
+body img{
+    max-height: auto;
+    max-width: 80%;
+    align-self: center;
+}
+
 footer {
     margin-top: auto;
     font-size: 0.75em;
     color: gray;
     text-align: center;
+}
+
+.unsplash-center {
+    font-size: 0.25em;
+    text-align: center;
+}
+
+.unsplash {
+    font-size: 0.25em;
+    text-align: right;
 }
 
 .item-header {
@@ -82,4 +94,26 @@ footer {
 .projects {
     height: auto;
     width: 150px;
+}
+
+.descriptions {
+    font-size: 10px;
+}
+.about-pic {
+    height: auto;
+    width: 300px;
+}
+
+.my-story {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+.float-right {
+    float: right;
+    padding-left: 15px;
+    padding-top: 15px
 }
