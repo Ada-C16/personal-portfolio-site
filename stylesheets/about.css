@@ -1,0 +1,33 @@
+@import url("colorscheme.css");
+
+.aboutcontainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 2.5% 5% 80% 5%;
+    margin: 0;
+    font-family: caslon;
+    width: 100vw;
+    height: 100vh;
+}
+
+.formatexpand { 
+    grid-column: 1/3;
+}
+
+.extraback {   
+    background: center / cover no-repeat url(../images/image_c.jpeg);
+    margin: 0;
+}
+
+.topnav {
+    display: flex;
+    background-color: var(--color-textback-gen);
+    grid-column: 1/3;
+    grid-row: 2 / 3;
+    margin: 0;
+    font-weight: bold;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+

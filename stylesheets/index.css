@@ -1,0 +1,63 @@
+
+@import url("colorscheme.css");
+
+.indexcontainer {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 15% 80% 5%;
+    margin: 0;
+    font-family: caslon;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    display: grid;
+    background-color: var(--color-main-back);
+    grid-row: 2 / 3;
+    margin: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.footer {
+    display: grid;
+    list-style-type: none;
+    grid-row: 3 / 4;
+    background-color: var(--color-footer-back);
+    margin: 0;
+    align-items: center;
+    font-weight: bold;
+}
+
+.picturea {
+    background: center / cover no-repeat url(../images/image_c.jpeg);
+    padding:10em;
+    border-radius: 30px;
+    border: 10px solid var(--color-title-back);
+    border-radius: 30px;
+}
+
+.pictureb {
+    background: center / cover no-repeat url(../images/image_f.jpeg);
+    padding:10em;
+    border-radius: 30px;
+    border: 10px solid var(--color-title-back);
+}
+
+.picturec {
+    background: center / cover no-repeat url(../images/image_a.jpeg); 
+    padding:10em;
+    border-radius: 30px;
+    border: 10px solid var(--color-title-back);
+}
+
+.picturea:hover, .pictureb:hover, .picturec:hover {
+    background: var(--color-picback-hover);
+    padding:10em;
+    border-radius: 30px;
+    }
+
+.piclink:hover {    
+    text-decoration: underline;
+}

@@ -1,0 +1,62 @@
+@import url("colorscheme.css");
+
+a:hover {
+    text-decoration: underline;
+    color:var(--color-footer-link-hover) 
+}
+
+a:visited {
+    color:var(--color-link)
+}
+
+a {
+    text-decoration: none; 
+    color:var(--color-footer-link);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+h1, h2 {
+    display: grid;
+    background-color: var(--color-title-back);
+    flex-wrap: wrap;
+    justify-content: center;
+    color: var(--color-title-font);
+    margin: 0;
+    align-items: center;
+    font-weight: bold;
+}
+
+h3 {
+    display:flex;
+    justify-content: center;
+    color: var(--color-title-font);
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    background-color: var(--color-main-back);
+}
+
+div {
+    display: flex;
+    background-color: var(--color-textback-gen);
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+    border-radius: 5%;
+    border: 10px solid var(--color-title-back);
+    border-radius: 30px;
+    margin: 10%
+}
+
+p {
+    color: var(--color-title-font);
+    text-align: justify;
+}
