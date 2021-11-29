@@ -124,6 +124,10 @@ nav a {
     padding: 10px
 }
 
+.about-item a {
+    color: var(--text-color)
+}
+
 .about-item-icon {
     height: 50px;    
     margin-right: 20px;
