@@ -64,11 +64,18 @@ a:visited{
 
 
 ul{
-    list-style-type: circle;
+    list-style-type:none;
     display: flexbox;
     justify-content: center;
 }
 
+.indent{
+    padding-inline: 12mm;
+    text-align-last: auto;
+    font-weight: lighter;
+    color: darkblue;
+    text-align:left;
+}
 
 h1{
     text-align: center;
@@ -92,3 +99,4 @@ h4{
 h5{
     font-weight: 100;
 }
+
