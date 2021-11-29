@@ -4,11 +4,13 @@ body {
     height: 83vh;
     grid-template-rows: 50px 1fr 50px;
     margin-top: 70px;
-    color: rgb(92, 67, 62)
+    color: rgb(92, 67, 62);
 }
 
-a:visited {
-    color: rgb(92, 67, 62);
+.home-body {
+    background: linear-gradient( rgba(128, 128, 128, 0.1),rgba(128, 128, 128, 0.1)), url('../Images/climbing.jpg');
+    color: white;
+    justify-content: center;
 }
 
 header {
@@ -21,12 +23,11 @@ header {
     background-color: rgb(251, 229, 183);
     width: 100vw;
     height: 70px;
+    color: rgb(157, 108, 93)
 }
 
 h5 {
     text-align: center;
-    align-self: center;
-    color: rgb(157, 108, 93)
 }
 
 nav {
@@ -34,7 +35,19 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-self: center;
-    margin-bottom: 20px;
+    padding-bottom: 25px;
+}
+
+a {
+    color: rgb(157, 108, 93);
+}
+
+a:visited {
+    color: rgb(92, 67, 62);
+}
+
+.home-h2 {
+    text-align: center;
 }
 
 .projects {
@@ -60,5 +73,6 @@ footer {
 }
 
 ::selection {
-    background:rgba(64, 224, 208, 0.386);
+    background:rgba(157, 108, 93, 0.5);
 }
+
