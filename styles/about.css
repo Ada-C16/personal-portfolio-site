@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    color: darkmagenta;
+    font: bold;
+    font-family:fantasy;
+    font-size: 40px;
+}
+
+nav {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 25px;
+    margin:10px
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px
+}
+
+.container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 0.5fr 2.5fr 0.8fr;
+    grid-template-rows: 0.5fr 1.5fr 0.25fr;
+}
+
+.header {
+    grid-column: 1 / 4;
+}
+
+.content {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+}
+
+.footer {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+
+}
