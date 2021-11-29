@@ -1,11 +1,7 @@
 body {
-    
-    background-image: url(/images/Floresrojas.jpeg); 
+    background-image: url(/images/galaxy.jpeg); 
     background-size: cover;
-
 } 
-
-
 
 .main-nav {
     display:flex;
@@ -40,3 +36,11 @@ main {
     width:40%;
     height: 40%;
 }
+
+.Dianas-paragraph {
+    color: cornflowerblue
+
+}
+<!--
+magnetic lasso to cut and paste
+-->
