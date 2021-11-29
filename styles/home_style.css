@@ -1,0 +1,35 @@
+
+.container {
+    background-color: rgba(17, 166, 220, 0.509);
+    opacity: 75%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background: rgb(17, 166, 220);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-right: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#salutation {
+    font-size: 20pt;
+    font-weight: 900px;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
