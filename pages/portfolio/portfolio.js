@@ -13,7 +13,7 @@ const portfolioPieces = [
       img:"../portfolio/lost-at-sea/images/lost-at-sea.jpg",
       medium: "digital",
       page: "../portfolio/lost-at-sea/lost-at-sea.html",
-      desc: ""
+      desc: "digital sketch about wanting to be not alive"
     },
     {
       id: 3, 
@@ -21,23 +21,23 @@ const portfolioPieces = [
       img: "../portfolio/munthir/images/munthir.jpg",
       medium: "linocut",
       page: "../portfolio/munthir/munthir.html",
-      desc: "things"
+      desc: "part of series 'the goddess'"
     },
     {
       id: 4,
-      title: "the goddess (on the go)",
+      title: "pocket worship",
       img:"../portfolio/pocket-worship/images/goddess-pocket.jpg",
       medium: "linocut",
       page: "../portfolio/pocket-worship/pocket-worship.html",
-      desc: ""
+      desc: "part of series 'the goddess'"
     },
     {
       id: 5,
-      title: "the goddess (for puja)",
+      title: "for puja",
       img: "../portfolio/puja/images/goddess-puja.jpg",
       medium: "linocut",
       page:"../portfolio/puja/puja.html",
-      desc: ""
+      desc: "part of series 'the goddess'"
     },
 
     {
@@ -54,7 +54,7 @@ const portfolioPieces = [
       img: "../portfolio/sweet-tomatoes/images/sweet-tomatoes.jpg",
       medium: "linocut",
       page: "../portfolio/sweet-tomatoes/sweet-tomatoes.html",
-      desc: "a goddess and her lover"
+      desc: "a goddess and her lover. part of series 'the goddess'"
     },
     {
       id: 8,
@@ -62,7 +62,7 @@ const portfolioPieces = [
       img: "../portfolio/thru-the-peephole/images/thru-the-peephole.jpg",
       medium: "linocut",
       page: "../portfolio/thru-the-peephole/thru-the-peephole.html",
-      desc: "series 'In My Home'"
+      desc: "series: 'In My Home'"
     }
 ]
 
