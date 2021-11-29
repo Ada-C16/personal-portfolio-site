@@ -11,9 +11,9 @@ h2 {
     color: darkmagenta;
 }
 
-p {
+section {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px
+    font-size: 20px;
 }
 
 .container {
@@ -31,10 +31,16 @@ p {
     margin-right: 4rem
 } 
 
+.proj-description {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .proj-item {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
 }
+
 
 #navigation {
     display: flex;
