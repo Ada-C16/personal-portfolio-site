@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../styles.css " rel="stylesheet">
-  <title>Document</title>
-</head>
-<body>
-  <header>Some of my Projects</header>
-    <ul>Click on the hyperlink to access the GitHub repository for each project
-      <li><a href=https://github.com/Chrisss111/task-list-api>Task List API Project</a>
-      <ul>Project features: 
-        <li>Creation of conventional RESTful CRUD routes for a model</li>
-        <li>Creation of unconventional routes for custom behavior</li>
-        <li>Use of Python, SQLAlchemy, Heroku</li>
-      </ul></li>
-      <li><a href=https://github.com/Chrisss111/swap-meet>Swap Meet Project</a>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles.css " rel="stylesheet">
+    <title>Portfolio</title>
+  </head>
+  <body>
+
+    <section id="portfolio-section">
+
+      <div id="portfolio-div-header">
+        <header id="portfolio-header">Some of my Projects</header>
+        <p id="portfolio-click">Click on the hyperlinks below to access the GitHub repository for each project</p>
+      </div>
+
+      <div class="project">
+        <a class="github-link" href=https://github.com/Chrisss111/task-list-api>Task List API Project</a>
+        <ul>Project features: 
+          <li>Creation of conventional RESTful CRUD model routes</li>
+          <li>Creation of unconventional routes for custom behavior</li>
+          <li>Use of Python, SQLAlchemy, Heroku</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <a class="github-link" href=https://github.com/Chrisss111/swap-meet>Swap Meet Project</a>
         <ul>Project features: 
           <li>Creation of classes with corresponding attributes and instances</li>
           <li>Implementation of class inheritance</li>
           <li>Use of Python</li>
         </ul>
-      </li>
-      <li><a href=https://github.com/Chrisss111/viewing-party>Viewing Party Project</a>
+      </div>
+
+      <div class="project">
+        <a class="github-link" href=https://github.com/Chrisss111/viewing-party>Viewing Party Project</a>
         <ul>Project features: 
           <li>Manipulation of nested data structures</li>
           <li>Creation and modification of test cases</li>
           <li>Use of Python</li>
         </ul>
-      </li>
-    </ul>
-  <footer>
-    <section class="container">
-      <nav><a href="index.html">Home</a></nav>
-      <nav><a href="about.html">About</a></nav>
-      <nav><a href="portfolio.html">Portfolio</a></nav>
-    </section>
-  </footer>  
-</body>
+      </div>
+
+      <footer id="portfolio-footer">
+
+        <section id="portfolio-nav">
+          <nav><a href="index.html">Home</a></nav>
+          <nav><a href="about.html">About</a></nav>
+          <nav><a href="portfolio.html">Portfolio</a></nav>
+        </section>
+
+        <section id="portfolio-copyright">
+            Copyright All Rights Reserved Christine 2021
+        </section>
+      </footer> 
+
+    </section> 
+
+  </body>
 </html>
