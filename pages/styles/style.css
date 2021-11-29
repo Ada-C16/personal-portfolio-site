@@ -1,5 +1,5 @@
 html { 
-    background: url(/pages/sailormoon.png) no-repeat center center fixed; 
+    background: url(/pages/images/sailormoon.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -45,7 +45,8 @@ footer{
     display: flex;
     background-color:cornsilk;
     grid-column-start: 1;
-    grid-column-end: 4
+    grid-column-end: 4;
+    justify-content:space-evenly;
 }
 
 a{
@@ -88,3 +89,6 @@ h4{
     color: cornflowerblue;
 }
 
+h5{
+    font-weight: 100;
+}
