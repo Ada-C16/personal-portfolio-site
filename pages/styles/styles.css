@@ -1,0 +1,25 @@
+header, footer{background-color:bisque;
+    border: 2px solid yellow;}
+body{background-color: wheat;}
+
+
+.container{
+    display: flex;
+    background-color: rgb(152, 212, 247);
+    
+    flex-direction: column;}
+
+.secondrow {display:flex;
+            flex-direction:row}
+#AboutMe{align-self:center}
+
+.portfolio_container{width: 66vw ;
+                    height: 66vh;
+                    display: grid;
+                    grid-template: 25% 25% 25% 25% / 100%;  }
+#row1{background-color: thistle;
+grid-row:1/1}
+#row2{background-color: violet;}
+#row3{background-color: yellowgreen;}
+#row4{background-color: turquoise;}
+
