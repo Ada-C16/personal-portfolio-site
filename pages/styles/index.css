@@ -1,0 +1,47 @@
+.container {
+    background: rgb(54, 52, 52);
+}
+
+header {
+    color: rgb(204, 236, 204);
+    font-family: cursive;
+    font-size: 22pt;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+}
+
+nav, footer {
+    color: rgb(163, 230, 197);
+    font: Helvetica;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center }
+
+/* links */
+a:link, a:visited {
+        background-color: whitesmoke;
+        color: black;
+        border: 2px solid rgb(92, 124, 92);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+a:hover, a:active {
+        background-color: thistle;
+        color: white;
+        font: Helvetica
+    }
+
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        border: 2px solid rgb(92, 124, 92);
+    }
