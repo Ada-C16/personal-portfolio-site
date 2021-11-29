@@ -1,0 +1,71 @@
+body {
+  font-family: fantasy;
+  }
+
+header{
+  background-color: #85dcb8;
+  font-size: 1.5em;
+
+}
+#container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #d9edc3;
+
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1.2em;
+}
+
+.nav-links {
+  padding:1em;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-around;
+  list-style-type: none;
+}
+
+.main-content {
+  padding: 20px;
+  height: 60vh;
+}
+
+footer{
+  background-color: #85dcb8;
+}
+
+#about-me{
+  display:inline-block;
+  width:40%;
+  padding:1em;
+}
+
+.about-me-text{
+  display:inline-block;
+  vertical-align: top;
+  width:55%;
+}
+h2{
+  padding-left: 1em;
+}
+p{
+  margin-bottom: 20px;
+}
+
+#index-page{
+  padding:1em;
+  font-size: 6em;
+  font-family: cursive;
+  color:rgb(220, 218, 197);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#index-background-image{
+  background-size: 900px;
+  background-image:url(/images/E-s-OZmVkAEZ1J2.jpg);
+}
