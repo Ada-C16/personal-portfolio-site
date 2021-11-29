@@ -1,0 +1,90 @@
+
+body {
+    background-color:palevioletred;
+    margin:4em;
+    align-items: center;
+}
+
+.section {
+    background-color: gray;
+    padding: 2em;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 2em;
+    
+}
+
+.section-1 {
+    height:500px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 50pt;
+    justify-content: space-evenly;
+    border: solid white 12px ;
+}
+
+.project1{
+    background-color: hotpink;
+    border-right: solid white 5px; 
+}
+
+.project1:hover{
+    background-color: pink; 
+    background-size: 100%;
+}
+
+.project2{
+    background-color: orange;
+    border-right: solid white 5px; 
+}
+
+.project2:hover{
+    background-color: lightsalmon;
+    background-size: 100%;
+}
+
+.project3{
+    background-color: yellow;
+}
+
+.project3:hover{
+    background-color: rgb(230, 230, 146);
+    background-size: 100%;
+}
+
+.image{
+    width: 200px;
+    height: 300px;
+    object-fit:scale-down;
+    object-position:center;
+    margin: 50pt;
+}
+.text{
+    font: didot;
+    font-size: 8pt;
+    flex-wrap: nowrap;
+    color:rgba(252, 252, 252, 0);
+    align-content: space-between;
+}
+.text:hover{
+    color:rgba(252, 252, 252, 1);
+}
+.image:hover{
+    opacity:0;
+}
+
+.page-footer{
+    color: ivory;
+    text-align: left;
+    font: 6px;
+}
+.nav-bar{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom:30PT ;
+
+}
