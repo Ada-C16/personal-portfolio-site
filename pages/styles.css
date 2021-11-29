@@ -121,12 +121,14 @@ header {
 
 .section-background,
 .section-background-left {
-    padding: 3vh 0 3vh 0;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
 .section-background-left {
     display: flex;
     justify-content: right;
+    border-right-width: 0;
 }
 
 .interest-left,
