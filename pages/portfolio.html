@@ -4,9 +4,69 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Makhabat's portfolio</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../stylesheets/index.css">
+  <style>
+    .main{
+      background-color:whitesmoke;
+      background-image: none; 
+      color: #000;
+    }
+    .content{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap:20px;
+      height: 10rem;
+    }
+    .content div{
+      border: 1px solid black;
+      width:40%;
+      height: 100%;
+      border-radius: 6px;
+      box-shadow:2px 4px 4px 4px grey;
+      align-items: center;
+
+    }
+    .content div:hover{
+      box-shadow:4px 6px 6px 6px grey;
+      cursor: pointer;
+
+    }
+  </style>
 </head>
 <body>
-  
+  <div class="container">
+    <header class="header">
+      <div class="logo">Logo</div>
+      <nav class="nav">
+        <div class="nav_home"><a href="../pages/index.html">Home</a></div>
+        <div class="nav_about"><a href="../pages/about.html">About</a></div>
+        <div class="nav_portfolio"><a href="../pages/portfolio.html">Portfolio</a></div>
+        <div class="nav_contact"><a href="../pages/contact.html">Contact</a></div>
+      </nav>
+    </header>
+    <main class="main">
+      <h1>Portfolio</h1>
+      <div class="content">
+        <div class="item1">Portfolio 1</div>
+        <div class="item2">Portfolio 2</div>
+        <div class="item3">Portfolio 3</div>
+        <div class="item4">Portfolio 4</div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+      </div> 
+      <p>2021 &copy;</p>
+    </footer>
+  </div>
 </body>
 </html>
