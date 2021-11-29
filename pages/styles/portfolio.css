@@ -1,0 +1,41 @@
+* {
+    background: rgb(54, 52, 52);
+    color: rgb(235, 232, 221);
+    font: Helvetica;
+}
+
+header {
+    color: rgba(189, 243, 189, 0.879);
+    font-family: cursive;
+    font-size: 18pt;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+}
+
+nav {
+    color: rgb(163, 230, 197);
+    font: Helvetica;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+}
+
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(92, 124, 92);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+    
+a:hover, a:active {
+    background-color: thistle;
+    color: white;
+    font: Helvetica
+}
