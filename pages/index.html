@@ -4,9 +4,52 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Home</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link rel = "stylesheet" href = "indexstyles.css">
+  <script src = "../components/nav.js" defer></script>
+  <script src = "../components/footer.js" defer></script>
+
 </head>
 <body>
-  
+  <header-component></header-component>
+  <section class="questions">
+      <div class="title"><h2>hello!</h2></div>
+      <div class="section-center">
+        <article class="question">
+          <div class="question-title">
+            <p>About</p>
+            <button type="button" class="question-btn">
+              <span class="plus-icon"><i class="far fa-plus-square"></i></span>
+              <span class="minus-icon"><i class="far fa-minus-square"></i></span>
+            </button>
+          </div>
+          <div  class="question-text">
+            <p onclick="location.href='../pages/index.html'" >
+              Hello, I'm Karishma Johnson. I'm a 22 years old lesbian (this is a crucial detail) and am currently enjoying cultivating my skill in printmaking. My work is often presented in sequences meant to build off of one another to convey a greater point. Central to many of my prints are anger, forced recognition, and reclamation of my feelings surrounding mental illness, queerness, and gender expression (reactions to these may vary). I am often inspired to try new things; things that I will find undoubtedly frustrating, confusing, and require an excess in pre-planning (I secretly love this). If you spend a fraction of your existence with something I have created or even deliberately avoid doing so from this point forward, thank you for your participation in our paths momentarily crossing. 
+            </p>
+          </div>
+        </article>
+        
+        <article class="question">
+          <div class="question-title">
+            <p>Portfolio</p>
+            <button type="button" class="question-btn">
+              <span class="plus-icon"><i class="far fa-plus-square"></i></span>
+              <span class="minus-icon"><i class="far fa-minus-square"></i></span>
+            </button>
+          </div>
+          <div  class="question-text">
+            <p onclick="location.href='./pages/portfolio/portfolio.html';">
+              Look over <a href= "../pages/portfolio/portfolio.html">here</a> to see some of my art in different mediums (primarily linocut)!
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  <script src="indexapp.js"></script>
+  <footer-component></footer-component>
+    
 </body>
 </html>
