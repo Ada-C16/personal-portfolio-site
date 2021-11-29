@@ -32,25 +32,16 @@ p {
 }
 
 .header {
-    /* background-color:darksalmon; */
     grid-column: 1 / 4;
 }
 
 .content {
-    /* background-color: honeydew; */
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 
 }
 
-.portrait {
-    max-width:90%;
-    height:70%;
-    grid-column: 1 / 2;
-}
-
 .footer {
-    /* background-color: lavenderblush; */
     grid-column: 1 / 4;
     grid-row: 3 / 4;
 
