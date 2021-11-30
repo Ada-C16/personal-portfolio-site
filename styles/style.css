@@ -1,96 +1,51 @@
-a {
-    display: block;
-    padding: 12px;
-    /* background-color: white; */
-}
-section {
-    padding: 50px;
-}
-body {
-    font-family: sans-serif;
-    background-color: rgb(205, 108, 200);
-    
-}
-li {
-    display: inline;
-    float: left;
-}
-nav {
-    padding: .08em;
-    position: fixed;
-    top: .1;
-    
-}
-header {
-    text-align: left;
-}
-
-.main-nav {
-    padding-inline-start: 0;
-    display: flex;
-    text-align: right;
-    justify-content: flex-end;
-    
-}
-
-ul {
-    list-style-type: none;
+/* star does this to all elements */
+* {
     margin: 0;
     padding: 0;
 }
 
-/* footer a {
-    position: fixed;
-    padding: 20px 10px 0px 10px;
-    bottom: 0;
-    width: 100%;
-    /* Height of the footer*/ 
-    /* height: 40px; */
-    /* background: white; */
-/* } */ 
-
-img {
-    border: 5px solid black;
-    float: right;
-    clear: right;
-    /* max-width: 100%; */
-    height: auto;
-    border-radius: 15px 50px;;
-    
+.main-container {
+    background-color: rgba(0,0,0,.1);
+    height: 100vh;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
 }
 
-p {
+header {
+    background-color: green;
+    display: flex;
+    justify-content:space-between;
+}
+
+header .logo {
+    background-color: rgba(0,0,0,.1);
+}
+
+header .nav {
+    background-color: rgba(0,0,0,.1);
+}
+
+main {
+    background-color: rgba(162, 34, 162, 0.5);
     display: grid;
-    text-align: left;
+    justify-content: space-between; 
+    grid-template-columns: 50%;
+    grid-template-rows: 50%;
+    grid-template-areas:
+        "main section.left-section"
+        "main section.image-section"
 }
 
-/* from learn css styling for grid */
-
-.container {
-    /* these are just an arbitrary widths and heights to look good on our browser */
-    width: 30vw;
-    height: 60vh;
-    display: grid;
+main section.left-section {
+    background-color: rgba(0,0,0,.1);
+    /* grid-area: left; */
+}
+main section.image-section {
+    background-color: rgba(0,0,0,.1);
 
 }
 
-.header {
-    background-color: #d55e00;
-    
-}
-
-.block {
-    background-color: yellow;
-}
-
-.content {
-    background-color: #009e73;
-    display: grid;
-    /* second one is footer? */
-    grid-template: 100px 500px / 200px 100px 50%;
-    text-align: left;
-}
-
-.footer {
-    background-color: #0072b2;
+footer {
+    background-color: rgb(164, 164, 51);
 }
