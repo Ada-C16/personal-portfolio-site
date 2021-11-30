@@ -142,11 +142,13 @@ header #navigation {
     align-items: center;
     justify-content: center;
     margin-top: 60px;
+    
 }
 
 .portfolio-section-h1 {
     text-align: center;
-    color: #4169e1;
+    color: whitesmoke;
+
 }
 
 .img-blocks img {
@@ -155,5 +157,12 @@ header #navigation {
     cursor: pointer;
     transition: opacity 0.3s;
     height: 200px;
+    
+}
+
+.img-blocks div {
+    color:white;
+    text-align: center;
+    
 }
 
