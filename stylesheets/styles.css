@@ -1,0 +1,180 @@
+
+/*NAV */
+
+nav {
+    background-color:pink;
+    padding: 5px;
+    width: 100%;
+}
+.main-nav {
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-nav li {
+    padding: 1em;
+    list-style: none;
+    font-size: 18px;
+}
+
+li.right-side {
+    margin-left: auto;
+}
+
+.main-nav a {
+    text-decoration: underline;
+    color: #8a8a8a;
+    font-size: 23px;
+}
+
+.main-nav a:hover {
+    color:palevioletred;
+    text-decoration: none;
+}
+
+/*HEADER/COVER */
+.header-cover,
+.about-cover{
+    text-align: center;
+    background-color: aliceblue;
+    margin-bottom: 5px;
+    border-bottom: solid 1px #000000;
+}
+
+/*INDEX BODY */
+.home-body {
+    text-align: center;
+}            
+
+.home-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+/* .home-button{
+    background: hotpink;
+    color: white;
+    font-family: Gotham, helvetica, sans-serif;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 20px;
+} */
+
+.home-body img {
+    width: 100%;
+}
+
+/*ABOUT PAGE*/
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+}
+
+.profile-image-wrapper img {
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-content-wrapper {
+    padding:30px;
+}
+.profile-content-wrapper h2 {
+    color: lightcoral;
+}
+
+.profile-content-wrapper p {
+    color:dimgray;
+    text-align: left;
+}
+
+.linkedin {
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+.footer p {
+    text-align: center;
+}
+
+/* Social Media Icons*/
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 7px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/* PORTFOLIO */
+
+.content-wrapper {
+    background-color: aliceblue;
+}
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+    height: 200px;
+    margin: 5px;
+}
+
+.portfolio-img-background {
+    /*makes sure pictures are cropped properly */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    border-radius: 50%; 
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-button-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* position relative is required to use absolute which forces an element to be in another place where it otherwise would not go */
+/* all elements positioned at top, and use flexbox to position them */
+
+
+.home-button{
+    background: hotpink;
+    color: white;
+    font-family: Gotham, helvetica, sans-serif;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.home-button:hover{
+    background: rgb(174, 71, 123);
+    transition: 0.5s;
+    outline: white solid 1px;
+}
+
+/* .img-text-wrapper a {
+    font-weight: 800;
+    color: white
+} */
+
+/*Screen Size Change*/
