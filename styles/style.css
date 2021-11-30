@@ -52,6 +52,8 @@ hr {
     background-color: var(--yellow);
     border: none;
     height: 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 body {
@@ -257,7 +259,7 @@ footer ul a:hover {
 /* ABOUT PAGE STYLES */
 /*************************/
 
-mark {
+.highlight {
     background-color: rgba(225, 168, 25, 0.756);
     padding: 3px;
 }
@@ -277,8 +279,13 @@ mark {
     color: var(--pink)
 }
 
-#professional p:nth-of-type(3) {
-    font-size: 1.2em;
+.star {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.skills {
+    font-style: italic;
 }
 
 #personal, #professional {
@@ -309,10 +316,6 @@ mark {
     border-radius: 20px;
     margin-bottom: 10px;
     margin-right: 10px;
-}
-
-#personal li > * {
-    display: none;
 }
 
 /*************************/
