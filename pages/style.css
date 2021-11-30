@@ -31,10 +31,28 @@ nav a {
     text-align: center;
 }
 
-p {
+.grid-container {
+    display: grid;  
+    grid-template-areas: 'header'
+    'main'
+    'footer';
+    grid-gap: 10px;
+    padding: 10px;
     text-align: center;
 }
 
-address {
-    text-align: center;
+#header-placeholder {
+    grid-area: header;
+}
+
+#footer-placeholder {
+    grid-area: footer;
+}
+
+#main-placeholder {
+    grid-area: main;
+}
+
+#invisible-forest {
+    color: white;
 }
