@@ -1,0 +1,21 @@
+.contactcontainer {
+    display: grid;
+    grid-template-rows: 10% 5% 2.5% 80% 5%;
+    margin: 0;
+    font-family: caslon;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.info {
+    background-color: var(--color-main-back); 
+    font-weight: lighter;
+}
+
+.center {
+    text-align:center;
+}
+
+

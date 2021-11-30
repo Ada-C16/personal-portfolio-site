@@ -1,0 +1,22 @@
+@import url("colorscheme.css");
+
+.aboutcontainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 5% 2.5% 80% 5%;
+    margin: 0;
+    font-family: caslon;
+    width: 100vw;
+    height: 100vh;
+}
+
+.formatexpand { 
+    grid-column: 1/3;
+}
+
+
+.aboutfooter {
+    grid-column: 1/3;
+    background-color: var(--color-footer-back)}
+
+

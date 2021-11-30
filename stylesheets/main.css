@@ -1,0 +1,110 @@
+@import url("colorscheme.css");
+
+a:hover {
+    text-decoration: underline;
+    color:var(--color-footer-link-hover) 
+}
+
+a:visited {
+    color:var(--color-link)
+}
+
+a {
+    text-decoration: none; 
+    color:var(--color-footer-link);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    text-align:center;  
+}
+
+h1, h2 {
+    display: grid;
+    background-color: var(--color-title-back);
+    flex-wrap: wrap;
+    justify-content: center;
+    color: var(--color-title-font);
+    margin: 0;
+    align-items: center;
+    font-weight: bold;
+}
+
+.maincontact {
+    display: flex;
+    background-color: var(--color-main-back);
+    grid-row: 4 / 5;
+    margin: 0;
+    font-weight: bold;
+    justify-content:center;
+    list-style-type: none;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h3 {
+    display:flex;
+    justify-content: center;
+    color: var(--color-title-font);
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    background-color: var(--color-main-back);
+}
+
+div {
+    display: flex;
+    background-color: var(--color-textback-gen);
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+    border-radius: 5%;
+    border: 10px solid var(--color-title-back);
+    border-radius: 30px;
+    margin: 10%
+}
+
+p {
+    color: var(--color-title-font);
+    text-align: justify;
+}
+
+.extraback {   
+    background: center / cover no-repeat url(../images/image_c.jpeg);
+    margin: 0;
+}
+
+.topnav {
+    display: flex;
+    background-color: var(--color-textback-gen);
+    grid-column: 1/3;
+    grid-row: 3 / 4;
+    margin: 0;
+    font-weight: bold;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+.genfooter {
+    grid-row: 5/6;
+    background-color: var(--color-footer-back);
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    background-color: var(--color-textback-gen);
+    grid-row: 3 / 4;
+    margin: 0;
+    font-weight: bold;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
