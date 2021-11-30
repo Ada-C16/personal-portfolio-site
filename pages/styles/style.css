@@ -24,6 +24,7 @@ header {
 footer {
     grid-area: footer;
     background-color: rgb(206, 206, 206);
+    background-image: linear-gradient(rgb(147, 144, 144), rgb(206, 206, 206));
     
 }
 .footer_links {
