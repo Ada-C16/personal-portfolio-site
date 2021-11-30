@@ -1,0 +1,58 @@
+/* I. Home Page */
+.header {
+    height: 90vh;
+    background-image: url(https://i.imgur.com/ssx1R6h.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-text {
+    color: rgb(255, 113, 255);
+    justify-self: center;
+}
+
+.nav {
+    display: flex;
+    align-content: center;
+}
+
+* {
+    font-family: Helvetica;
+}
+
+body ul {
+    list-style: none;
+  }
+
+.nav ul {
+    list-style: none;
+  }
+
+/* II. Portfolio */
+.container {
+    width: 30vw;
+    height: 60vh;
+    display: grid;
+    grid-template: 100px 500px / 200px 100px 50%;
+}
+
+/* III. Header and Footer */
+footer {
+    text-align: center;
+    font-size: x-small;
+    display: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* IV. Links */
+a:hover {
+    color: rgb(0, 251, 255);
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+}
