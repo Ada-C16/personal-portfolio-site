@@ -1,0 +1,18 @@
+@import url("colorscheme.css");
+
+.portfoliocontainer {
+    display: grid;
+    grid-template-rows: 10% 5% 2.5% 80% 5%;
+    margin: 0;
+    font-family: caslon;
+    width: 100vw;
+    height: 100vh;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    text-align:center;
+}
