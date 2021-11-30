@@ -4,9 +4,85 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="author" content="Afina Walton">
+  <meta name="description" content="Personal website of front-end developer Afina Walton">
+  <meta name="keywords" content="Afina Walton, front end, Seattle, software developer, software engineer">
+  <link type="text/css" href="../styles/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/bfe72cc9b2.js" crossorigin="anonymous"></script>
+  <title>Portfolio | Afina Walton</title>
 </head>
 <body>
-  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="portfolio.html" style="color: var(--dark-blue); border-bottom: 1px solid var(--dark-blue)">Portfolio</a></li>
+    </ul>
+  </nav>
+  <header id="projects-header">
+    <h1>Projects</h1>
+    <p>I did these projects as part of the curriculum of <a href="https://adadevelopersacademy.org/" target="_blank">Ada Developer's Academy</a>. They emphasize knowledge and understanding of the following: test-driven development, <abbr title="Object-Oriented Programming">OOP</abbr>, RESTful <abbr title="Application Programming Interfaces">APIs</abbr> and endpoints, code quality, and pair programming.</p>
+  </header>
+  <main id="projects">
+    <article id="video-store">
+      <h2><a href="https://github.com/afinawalton/retro-video-store">Retro Video Store</a></h2>
+      <div>
+        <time datetime="2021-11-15">November 15, 2021</time>
+      </div>
+      <p class="pair">Collaboration with <a href="https://github.com/rebecamuniz" target="_blank">Rebeca Mu&#241;iz</a></p>
+      <p class="description">
+        Used Python, Flask, SQLAlchemy, and Postgres to create a RESTful API that simulates a retro video store. Implemented CRUD actions to manage customers, videos, and rentals. Explored one-to-many and many-to-many database relationships in Postgres.
+      </p>
+    </article>
+    <article id="task-list">
+      <h2><a href="https://github.com/afinawalton/task-list-api" target="_blank">Task List</a></h2>
+      <div>
+        <time datetime="2021-11-05">November 5, 2021</time>
+      </div>
+      <p class="description">
+        Built a task management API with Python, Flask, SQLAlchemy, and Postgres. Used relevant modules to capture JSON requests, return JSON responses, and use query parameters. Explored one-to-many database relationships in Postgres. Experimented with Flask HTML templates to develop a partial front-end for <code>GET /tasks</code> endpoint. <a href="https://task-list-afina.herokuapp.com/tasks" target="_blank">This project was also deployed on Heroku.</a>
+      </p>
+    </article>
+    <article id="adagrams">
+      <h2><a href="https://github.com/afinawalton/adagrams-py" target="_blank">AdaGrams</a></h2>
+      <div>
+        <time datetime="2021-09-24">September 24, 2021</time>
+      </div>
+      <p class="pair">Collaboration with <a href="https://github.com/the-non-binary-tree" target="_blank">Sophia Le</a></p>
+      <p class="description">
+        <span class="yay">First pair programming project!</span> Used Python to simulate a Scrabble-esque board game. Learned how to read tests and use them in test-driven development. Used Git as version control system throughout project cycle. Learned how to use the driver/navigation model of pair programming.
+      </p>
+    </article>
+    <article id="viewing-party">
+      <h2><a href="https://github.com/afinawalton/viewing-party" target="_blank">Viewing Party</a></h2>
+      <div>
+        <time datetime="2021-09-17">September 17, 2021</time>
+      </div>
+      <p class="description">
+        <span class="yay">First project in Python!</span> Built a Python program that simulates a viewing party with friends. Explored conditional logic, lists, dictionaries, nested loops, and nested data structures. Learned to create helper functions that satifsy single-responsibility principle.
+      </p>
+    </article>
+  </main>
+  <footer>
+    <div id="name-links">
+      <p>&copy; 2021 Afina Walton</p>
+      <p>This site's content and design is inspired by my favorite front-end developers:</p>
+      <ul>
+        <li><a href="https://www.sarasoueidan.com/" target="_blank">Sara Soueidan</a></li>
+        <li><a href="https://bradfrost.com/" target="_blank">Brad Frost</a></li>
+        <li><a href="https://thinkdobecreate.com/" target="_blank">Stephanie Eckles</a></li>
+        <li><a href="https://www.tatianamac.com/" target="_blank">Tatiana Mac</a></li>
+      </ul>
+      <div class="links">
+        <a href="mailto:afinawalton95&commat;gmail&period;com" class="fas fa-envelope-square"></a>
+        <a href="https://github.com/afinawalton" class="fab fa-github-square" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/afinawalton/" class="fab fa-linkedin" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/afinawalton/" class="fab fa-twitter-square" target="_blank"></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
