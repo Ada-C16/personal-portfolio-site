@@ -54,14 +54,13 @@ footer {
     text-align: center;
 }
 
-.unsplash {
+.unsplash-right {
     font-size: 0.25em;
     text-align: right;
 }
 
 .item-header {
     grid-area: header;
-
 }
 
 .item-main {
@@ -112,8 +111,8 @@ footer {
     margin-right: 2rem;
 }
 
-.float-right {
+/* .my-story img {
     float: right;
     padding-left: 15px;
     padding-top: 15px
-}
+} */
