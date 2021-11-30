@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="../styles/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
   <link href="//db.onlinewebfonts.com/c/0fddb08144cea533dcd3d39388b7ffbe?family=GrandSlang+Roman" rel="stylesheet" type="text/css"/>
@@ -14,29 +14,39 @@
   <header>
     <nav class="block">
         <ul class="home-nav">
-            <li><a href="home.html">Home</a></li>
+            <li ><a href="home.html">Home</a></li>
             <li><a href="about.html">About</a></li>    
-            <li><a href="projects.html">Pojects</a></li>    
+            <li><a href="projects.html">Projects</a></li>    
             <li><a href="contact.html">Contact</a></li>   
         </ul>
     </nav>
   </header>
 
-  <main class="about-parent-container">
-      <article class="about-section">
-        <h1> Ana ... who?</h1>
-        <p> 
-          write about myself here
-        </p>
-      </article>
+  <section  class="contact-title">
+    <h1> Contact me </h1>
+  </section>
 
-      <figure class="image-container ">
-        <img id="profile-image" src="../images/profile_image.png" alt="profile picture">
-      </figure>     
+  <main class="form-container">
+    <form action="future-url">
+
+      <label for="first-name">Name</label>
+      <input type="text" id="first-name" name="name" placeholder="Your name..">
+    
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="@">
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
   </main>
-  
+
   <footer class="footer">
-      <p>©Copyright 2021 by Ana Gabriele Singh. All rights reserved.</p> 
+    <p>©Copyright 2021 by Ana Gabriele Singh. All rights reserved.</p> 
   </footer>
+
+
+
 </body>
 </html>

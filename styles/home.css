@@ -1,0 +1,119 @@
+
+/* ------------------ */
+/* home page styles */
+/* ------------------ */
+
+
+.parent-container{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 10%
+}
+
+.grid-item-sidebar{
+    grid-column:1/2;
+    grid-row: 1;
+    margin: auto auto auto 0;
+}
+
+.home-sidebar{
+    margin: 0;
+    list-style-type: none;
+}
+
+.home-sidebar li {
+    font-family: "GrandSlang Roman";
+    font-size: 180px;
+}
+
+.home-sidebar li a{
+    color:gray;
+    text-decoration: none;
+    /* margin-top: 35%; */
+}
+
+.home-sidebar li:visited{
+    text-decoration: none;    
+}
+
+.home-sidebar li:hover{
+    font-weight: 900;
+    font-style: italic;
+}
+
+.grid-item-desc{
+    grid-column: 2/2;
+    grid-row: 1/1;
+}
+
+.description{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(109, 106, 106);
+    letter-spacing: 0.1em;
+    margin-top: 70%
+}
+
+.description h1{
+    font-size: 125%;
+    font-weight: bold;
+}
+
+/* media is a CSS rule  is used to apply different styles 
+for diferent media types/devices */
+@media only screen and (min-width: 600px) and (max-width: 1300px) {
+    .parent-container{
+        display: grid;
+        grid-template-columns: 3fr ;
+        grid-template-rows: 2fr;
+        margin: 10%        
+    }
+
+    .grid-item-desc{
+        grid-column: 1/1;
+        grid-row: 2/2;
+    
+    }
+    .grid-item-sidebar{
+        grid-column:1/1;
+        grid-row: 1/2;
+    
+    }
+    .description{
+        margin-top:0;
+        margin-left: 3%;
+        align-self: left;
+    }
+}
+
+
+@media only screen and  (max-width: 700px) {
+    .parent-container{
+        display: grid;
+        grid-template-columns: 3fr ;
+        grid-template-rows: 2fr;
+        margin-top: 30%;
+        padding-top:0%;    
+    }
+
+    .grid-item-desc{
+        grid-column: 1/1;
+        grid-row: 2/2;
+    }
+
+    .grid-item-sidebar{
+        grid-column:1/1;
+        grid-row: 1/2;
+
+    }
+    .description{
+        margin-top:0;
+        margin-left: 3%;
+        align-self: left;
+    }
+
+    .home-sidebar li {
+        font-family: "GrandSlang Roman";
+        font-size: 700%;   
+    }  
+}
