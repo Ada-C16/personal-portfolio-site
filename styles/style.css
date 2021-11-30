@@ -78,3 +78,35 @@ header #navigation {
     font-size: 15px;
     font-family: serif;
 }
+
+
+/* ABOUT */
+.about-container {
+    margin: 10%;
+    width: 80%;
+    height: auto;
+    background-color: #f8f8f8;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.about-image {
+    height: 450px;
+    width: 400px;
+    background-image: url(https://cdn.dribbble.com/users/4596776/screenshots/14382770/untitled_artwork_2_copy.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-text {
+    height: auto;
+    width: 40%;
+    margin-left: 100px;
+
+}
