@@ -110,3 +110,34 @@ header #navigation {
     margin-left: 100px;
 
 }
+
+/* PORTFOLIO */
+.portfolio-section {
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%;
+    height:100%;
+}
+.img-blocks {
+   
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.portfolio-section-h1 {
+    text-align: center;
+    color: #4169e1;
+}
+
+.img-blocks img {
+    width: 350px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    height: 200px;
+}
+
