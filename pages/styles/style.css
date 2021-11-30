@@ -23,12 +23,13 @@ header {
 
 footer {
     grid-area: footer;
-    background-color: #f1f1f1;
-    border: 2px solid grey;
-    border-radius: 0.3em;
-
+    background-color: rgb(206, 206, 206);
+    
 }
-
+.footer_links {
+    text-align: center;
+    text-decoration: underline;
+}
 /* Index page style */
 main {
     grid-area: content;
@@ -55,14 +56,16 @@ main {
 /* About pages */
 .about_headers {
     display:grid;
-    background-color: grey;
+    color: rgb(35, 52, 181);
+    text-decoration: underline;
     justify-content: center;
 }
 
 /* Portfolio page */
 .portfolio_title {
     display:grid;
-    background-color: grey;
+    color: rgb(35, 52, 181);
+    text-decoration: underline;
     justify-content: center;
 }
 /* nav section */
