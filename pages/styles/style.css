@@ -18,8 +18,8 @@ body{
     width: 50%;
     height: 60%;
     /* grid-template-columns: 3fr 4fr 80%; */
-    grid-template-columns: 3fr repeat( auto-fit, minmax(250px, 1fr));
-    grid-template-rows: 1fr 20%;
+    grid-template-columns: 3fr repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: 1fr repeat(auto-fit, minmax(150px, 1fr));
     /* grid-template-columns: 25% 50%;
     grid-template-rows: ; */
 }
@@ -43,7 +43,7 @@ nav{
 
 footer{
     display: flex;
-    background-color:cornsilk;
+    background-color:rgb(245, 241, 226);
     grid-column-start: 1;
     grid-column-end: 4;
     justify-content:space-evenly;
@@ -51,7 +51,7 @@ footer{
 
 a{
     color: hotpink;
-    padding-block: 10%
+    padding-block: 10%;
 }
 
 a:hover{
@@ -64,7 +64,7 @@ a:visited{
 
 
 ul{
-    list-style-type:none;
+    /* list-style-type:none; */
     display: flexbox;
     justify-content: center;
 }
@@ -75,14 +75,18 @@ ul{
     font-weight: lighter;
     color: darkblue;
     text-align:left;
+    list-style-type: none;
+
 }
 
 h1{
     text-align: center;
+    color: purple;
 }
 
 h2{
     text-align: center;
+    color: purple;
 }
 
 h3{
