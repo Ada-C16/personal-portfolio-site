@@ -8,7 +8,6 @@ header #navigation {
     
 }
 
-
 #navigation ul {
     display:inline-flex;
 }
@@ -81,6 +80,15 @@ header #navigation {
 
 
 /* ABOUT */
+#about-me {
+    background-image: url(https://wallpaperaccess.com/full/279547.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    padding: 20px;
+   
+}
 .about-container {
     margin: 10%;
     width: 80%;
@@ -112,6 +120,14 @@ header #navigation {
 }
 
 /* PORTFOLIO */
+
+#portfolio-area {
+    background-image: url(https://wallpaperaccess.com/full/279547.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+}
 .portfolio-section {
     margin-top: 20px;
     overflow: hidden;
