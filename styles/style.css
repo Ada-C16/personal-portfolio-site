@@ -339,6 +339,10 @@ footer ul a:hover {
     background-color: var(--pink)
 }
 
+.pair a::after {
+    display: none;
+}
+
 time {
     text-transform: uppercase;
     font-weight: bold;
