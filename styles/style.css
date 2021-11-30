@@ -92,7 +92,7 @@ a:hover {
 
 article {
   display: grid;
-  grid-template: 10% 90% / 2fr 1fr;
+  grid-template: 1fr 9fr / 2fr 1fr;
 }
 
 .about {
