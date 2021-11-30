@@ -221,13 +221,23 @@ header {
     border-style: solid;
 }
 
-.button a {
+.button-for-hover a {
     color: black;
     text-decoration: none;
 }
 
+.button:hover {
+    color: #EAD2AC;
+    display: flex;
+    justify-content: center;
+    background-color: #0081AF;
+    border-radius: 25px 25px 25px 25px;
+    padding: .5em;
+    margin: 40px;
+}
+
 .button a:hover {
-    color: #0081AF;
+    color: #EAD2AC;
 }
 
 /* Media Queries */
