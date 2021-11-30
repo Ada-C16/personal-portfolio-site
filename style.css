@@ -1,46 +1,205 @@
+.Index
 body {
-    background-image: url(/images/galaxy.jpeg); 
-    background-size: cover;
-} 
+    background-image: url(/images/spacebg.jpeg); 
+    background-size: 120%;
+    background-repeat: no-repeat;
+    color: thistle;
+    text-align:center;
+    }
 
-.main-nav {
-    display:flex;
-    background-color: grey;
-    
+.Dianaport {
+    width: 200px;
+    float: left;
 }
 
-h1 {
-    background-color: rgb(105, 103, 103);
-    
-    opacity: 60%;
-    color:thistle;
-    padding: 0.5em;
+.Dianabout {
+    width: 200px;
+    float:right;
+}
+.about-header {
+    font-size: 50px;
+}
+.about-img {
+    width: 30%;
+}
+
+.about-D {
+    background-color:peru;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Dianas-paragraph {
+    color: black;
+    text-align:left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Portfolio {
+    background-color: cornflowerblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:40px;
+    color:black;
+}
+
+.portfolio-text {
+    font-size: 15PX;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70%;
+    width: 70%;
+    opacity: 100;
+    position: relative;
+    top:1.5em;
+}
+.image {
+    opacity: 1;
+    width: 25%;
+    height: auto;
     position:sticky;
-    top: 0;
-    
+    transition: .5s ease;
 }
-
-* {
-    color: rgb(226, 126, 159);
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position:absolute;
+    top:5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
+.portfolio-text:hover .image {
+    opacity: 0.3;
+}
+.portfolio-text:hover .middle {
+    opacity: 1;
+}
+.text {
+    background-color: thistle;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+}
 
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 300px;
+.DogSof {
+    width: 300px;
+    position: absolute;
+    top:550px;
+    left: 990px;
+    motion: circle();
+}
+.DogSul {
+    width: 250px;
+    position: absolute;
+    left: 600px;
+    top: 470px;
+}
+.DogDahl {
+    width: 250px;
+    float:left;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+.DogMaya {
+    width: 200px;
+    animation: rotate 3s linear;
+    position: absolute;
+    top: 280px; left: 30px;
 }
 
 .Dog {
-    width:40%;
-    height: 40%;
+    width:250px;
+    height: auto;
+    white-space:unset;
 }
 
-.Dianas-paragraph {
-    color: cornflowerblue
-
+.Dahlia {
+    background-image: url(/images/Howls3.png);
+    background-size: cover;
+    text-align: center;
+    color: rebeccapurple;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-<!--
-magnetic lasso to cut and paste
--->
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.dahlia-img {
+    width: 250px;
+    height: auto;
+}
+.dahlia-img :hover {
+    transform: scale(1.5);
+}
+
+.dahlia-text {
+    text-align: left;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Sofia {
+    background-image: url(/images/Spirited.jpeg);
+    background-size: cover;
+    font-size: 40px;
+    text-align:center;
+    color:darkslategray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.sofia-img {
+    width: 200px;
+    height: auto;
+}
+
+.sofia-text {
+    font-size: 18px;
+    text-align: left;
+    color:darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Maya {
+    background-image: url(/images/Mononoke.png);
+    background-size: cover;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: wheat;
+}
+
+.maya-img{
+    width: 200px;
+}
+
+.maya-text {
+    text-align: left;
+    font-size: 18px;
+    color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Sully {
+    background-image: url(/images/Kiki.jpeg);
+    background-size: cover;
+    text-align: center;
+    color: rebeccapurple;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sully-text {
+    text-align: left;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sully-img {
+    width: 200px;
+    height: auto;
+}
