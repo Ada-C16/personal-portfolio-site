@@ -1,0 +1,17 @@
+document.write('<nav>');
+document.write('<ul>');
+document.write('   <li><a class="navlink" href="./index.html">Home</a></li> ');
+document.write('</ul>');
+document.write('<ul>');
+document.write('   <li><a class="navlink" href="./about.html">About</a>');
+document.write('    <ul>');
+document.write('     <li><a class="navsublink" href="./about.html#Community">Community</a></li>');
+document.write('     <li><a class="navsublink" href="./about.html#Hobbies">Hobbies</a></li>');
+document.write('     <li><a class="navsublink" href="./about.html#FamilyFriends">Family & Friends</a></li>           ');
+document.write('    </ul>');
+document.write('   </li>');
+document.write('</ul>');
+document.write('<ul>');
+document.write('   <li><a class="navlink" href="./portfolio.html">Professional</a></li>');
+document.write('</ul>');
+document.write('</nav>');

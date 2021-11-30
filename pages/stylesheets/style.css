@@ -1,0 +1,158 @@
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:20px;
+}
+
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 0px;
+}
+
+.container {
+    width: 100vw;
+    margin-bottom: 50px;    
+}
+
+.col-1 {
+    grid-column: span 1;
+    padding: 5px;
+}
+.col-2 {
+    grid-column: span 2;
+    padding: 5px;    
+}
+.col-3 {
+    grid-column: span 3;
+    padding: 5px;
+}
+.col-4 {
+    grid-column: span 4;
+    padding: 5px;
+}
+.col-5 {
+    grid-column: span 5;
+    padding: 5px;
+}
+.col-6 {
+    grid-column: span 6;
+    padding: 5px;
+}
+.col-7 {
+    grid-column: span 7;
+    padding: 5px;
+}
+.col-8 {
+    grid-column: span 8;
+    padding: 5px;
+}
+.col-9 {
+    grid-column: span 9;
+    padding: 5px;
+}
+.col-10 {
+    grid-column: span 10;
+    padding: 5px;
+}
+.col-11 {
+    grid-column: span 11;
+    padding: 5px;
+}
+.col-12 {
+    grid-column: span 12;
+    padding: 5px;
+}
+
+h1 {
+    padding:20px;
+    text-align: center;
+}
+
+.index-intro {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    height: 30px;
+    background-color: #eee;
+    width:100%;
+    margin: -20px -20px -10px -20px;
+    padding:10px;
+}
+nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin: -20px -20px 0 -20px;
+    padding-bottom: 20px;
+}
+
+nav > ul {
+    list-style-type: none;
+}
+
+    
+nav > ul > li::before {
+    content: "→";
+    font-size: 3em;
+}
+    
+nav > ul > li:first-child::before {
+    content: "";
+}
+
+.navlink {
+    color:white;
+    text-decoration: underline white;
+    font-size: 1.2em;
+}
+
+.navsublink {
+    color:white;
+    font-style: italic;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+p {
+    margin-left: 10px;
+    display:block;
+}
+
+h1 > p {
+    text-align: justify;
+}
+
+h2 > p {
+    text-align: justify;
+}
+
+.photo-family {
+    padding: 20px;
+}
+
+.photo-snowboard {
+    padding: 20px;
+    margin:-20px;
+}
+
+.photo-reflections-art {
+    padding: 20px;
+}
