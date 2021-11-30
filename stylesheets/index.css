@@ -15,11 +15,7 @@ body{
     "footer footer footer footer footer";
 	grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
 	grid-template-rows: 0.4fr 1fr 2fr 1fr 0.4fr;
-    height: 100vh;
-    
-
 }
-
 .header{
     grid-area: header;
     display: grid;
@@ -27,13 +23,16 @@ body{
     "logo . . nav nav";
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     align-items: center;
-
 }
 .logo{
     grid-area: logo;
+    width:8rem;
+    cursor: pointer;
+}
+.logo img{
+    width:100%;
 }
 .nav{
-
     grid-area: nav;
     display: flex;
     justify-content: space-evenly;
@@ -58,10 +57,9 @@ body{
     background-image: url('https://marvel-b1-cdn.bc0a.com/f00000000075552/www.perforce.com/sites/default/files/image/2018-07/image-blog-will-ai-replace-programmers.jpg');
     background-repeat: no-repeat;
     background-size:cover;
+    height: 100vh;
 }
-
 .footer{
-
     grid-area: footer;
     align-self: center;
 }
