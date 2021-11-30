@@ -29,7 +29,6 @@ a:link {
     text-decoration: none;
 }
 
-
 body {
     height: 100vh;
     display: flex;
@@ -40,6 +39,12 @@ body img{
     max-height: auto;
     max-width: 80%;
     align-self: center;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
