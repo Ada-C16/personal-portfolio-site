@@ -1,0 +1,106 @@
+html { 
+    background: url(/pages/images/sailormoon.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    background-color: thistle;
+    grid-row: span 1;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    width: 50%;
+    height: 60%;
+    /* grid-template-columns: 3fr 4fr 80%; */
+    grid-template-columns: 3fr repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: 1fr repeat(auto-fit, minmax(150px, 1fr));
+    /* grid-template-columns: 25% 50%;
+    grid-template-rows: ; */
+}
+
+section{
+    background-color:lavender;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+    display: flex;
+    background-color:rgb(245, 241, 226);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-content:space-evenly;
+}
+
+a{
+    color: hotpink;
+    padding-block: 10%;
+}
+
+a:hover{
+    color: orange;
+}
+
+a:visited{
+    color: pink;
+}
+
+
+ul{
+    /* list-style-type:none; */
+    display: flexbox;
+    justify-content: center;
+}
+
+.indent{
+    padding-inline: 12mm;
+    text-align-last: auto;
+    font-weight: lighter;
+    color: darkblue;
+    text-align:left;
+    list-style-type: none;
+
+}
+
+h1{
+    text-align: center;
+    color: purple;
+}
+
+h2{
+    text-align: center;
+    color: purple;
+}
+
+h3{
+    font: weight 300px;
+    font-family:monospace;
+    font-style: italic;
+}
+h4{
+    font-weight: 400px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: cornflowerblue;
+}
+
+h5{
+    font-weight: 100;
+}
+
