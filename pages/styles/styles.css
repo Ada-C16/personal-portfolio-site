@@ -1,0 +1,213 @@
+* {
+    font-family:Helvetica;
+}
+body {
+    background-color: pink;
+}
+/********** about grid container*************************** */
+.container-about {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.cell {
+    color: white;
+    font-size: 1rem;
+    font-style: bold;
+    text-align: center;
+    padding: 2rem;
+}
+.cell-1 {
+    grid-row: 1;
+    grid-column: 1/4;
+    padding: 3rem;
+}
+.cell-2 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    padding: 0.5rem;
+    align-content: center;
+    margin-top: 4rem;
+}
+.cell-3 {
+    grid-row: 2/3;
+    grid-column: 2/4;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+}
+.cell-4 {
+    grid-row: 3/4;
+    grid-column: 2/4;
+    padding: .5rem;
+}
+.cell-5 {
+    grid-row: 4/4;
+    grid-column: 2/3;
+}
+/********* navigation bar (header) ***************/
+nav ul {
+    display:flex;
+    background-color: white;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li a {
+    display:block;
+    color:rgb(162, 221, 201);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20pt;
+}
+li a:hover {
+    background-color: grey;
+}
+nav li {
+    display:block;
+    padding:8px;
+    list-style-type: none;
+}
+
+img{
+    max-width: 100%;
+    height: 50vh;
+}
+
+/* ***********footer (contact)******************* */
+.vertical-footer {
+    margin-bottom: 0%;
+    list-style-type: none;
+    width: 500px;
+    align-content:right;
+}
+.vertical-footer a {
+    color:grey;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: left;
+    margin-right: 275px;
+}
+.vertical-footer a:hover{
+    background-color: rgb(162, 221, 201);
+} 
+.footer-text{
+    color: white;
+    text-align: left;
+}
+.push {
+    margin-left: 35%;
+}
+/* ******** projects list grid*********** */
+.grid-container {
+    background: white;
+    display:grid;
+    grid-template-columns:  .8fr 1.2fr 0.2fr;
+    grid-template-rows: 250px;
+    width: 100%;
+}
+.grid .text {
+    grid-area: content;
+    text-align: left;
+    font-size: 1rem;
+    color:gray;
+    line-height: 150%;
+}
+
+.grid__item {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+.grid__item > img {
+    margin: auto;
+    width: 50%;
+    height: 60%;
+}
+.grid__item > a {
+    margin: auto;
+}
+
+/* ******** cover page ****************/
+.cover {
+    align-content: top;
+    background-image:url(file:///Users/eunice/Developer/projects/personal-portfolio-site/pages/images/cover-page.jpeg);
+    background-position: center;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    padding-top: 20pt;
+}
+#home-page-title {
+    text-align: center;
+    font-size: 5rem;
+    font-style: bold;
+    color: grey;
+    margin-top: 100pt;
+    box-sizing: border-box;
+}
+
+h2 {
+    display:inline-block;
+    text-align: center;
+    font-size: 2rem;
+    color:gray;
+    margin-top: 10pt;
+    margin-bottom: 0pt;
+    margin-left:35%;
+    margin-right:35%;
+    padding-top: 10%;
+    box-sizing: border-box;
+    
+}
+h3 {
+    display:inline-block;
+    text-align: left;
+    font-size: 1.2rem;
+    color:gray;
+    margin-top: 5%; 
+}
+h4 {
+    display:flex;
+    float:left;
+    font-size: 2rem;
+    color:white;
+    padding: 1rem;
+    width: 60%;
+    border-style: dashed;
+}
+h5 {
+    display:flex;
+    text-align: left;
+    font-size: .8rem;
+    color:white;
+    padding: 1rem;
+}
+
+p {
+    line-height: 100%;
+    color:pink;
+    font-size: 1.2em;
+}
+a {
+    color:rgb(162, 221, 201);
+}
+.centered {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    width: 100%;
+}
+
+.section {
+    margin-top: 15%;
+    padding-bottom: 20pt;
+}
+
