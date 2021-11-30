@@ -1,0 +1,71 @@
+/* star does this to all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    background-color: rgba(0,0,0,.1);
+    height: 100vh;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+
+header {
+    background-color: beige;
+    display: flex;
+    justify-content:space-between;
+    font-size: large;
+}
+
+/* header .logo {
+    background-color: beige;
+} */
+
+header .nav {
+    background-color: rgba(0,0,0,.1);
+    font-size: 20px;
+}
+
+header ul.main-nav {
+    background-color:beige;
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li {
+    display: inline;
+    padding: 20px
+}
+main {
+    background-color: rgb(206, 186, 186);
+    display: grid;
+    justify-content: space-between; 
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        "section.left-section section.image-section";
+    /* align-items: center; */
+    /* max-width: 600px; */
+    
+}
+
+main section.left-section {
+    background-color: rgba(0,0,0,.1);
+    
+}
+main section.image-section {
+    background-color: rgba(0,0,0,.1);
+
+}
+
+footer {
+    background-color: rgb(206, 186, 186);
+}
+
+img {  
+    max-width: 98%;  
+    height: auto;  
+    border: 5px solid black;
+    border-radius: 15px;
+}  
