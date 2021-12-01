@@ -54,15 +54,9 @@ li.right-side {
     justify-content: space-between;
 } 
 
-/* .home-button{
-    background: hotpink;
-    color: white;
-    font-family: Gotham, helvetica, sans-serif;
-    border: none;
-    border-radius: 20px;
-    font-size: 14px;
-    padding: 10px 20px;
-} */
+.home-body {
+    width: 100%;
+}
 
 .home-body img {
     width: 100%;
@@ -73,6 +67,7 @@ li.right-side {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 30px;
+    max-width: 100%;
 }
 
 .profile-image-wrapper img {
@@ -122,6 +117,8 @@ li.right-side {
 
 .content-wrapper {
     background-color: aliceblue;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .portfolio-items-wrapper {
@@ -130,9 +127,12 @@ li.right-side {
 }
 
 .portfolio-item-wrapper {
+/* position relative is required to use absolute which forces an element to be in another place where it otherwise would not go */
+
     position: relative;
     height: 200px;
     margin: 5px;
+    
 }
 
 .portfolio-img-background {
