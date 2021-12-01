@@ -1,0 +1,149 @@
+/* <style> */
+
+body {
+  background-image: url(https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(218, 214, 215, 0.671);
+  background-size: cover;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  float: right;
+}
+
+
+li a {
+    color: white;
+    font-size: 22pt;
+    font-family: 'Superclarendon', sans-serif;
+    font-variant: small-caps;
+    padding: 14px 16px;
+    text-align: center;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover {
+  text-decoration: underline overline;
+  color: rgb(253, 205, 205);
+  }
+
+
+.navbar {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.active {
+  background-color: rgb(84, 134, 135);;
+}
+
+#overlay {
+  position: fixed; 
+  width: 100%; 
+  height: 11%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); 
+  z-index: 2; 
+}
+
+#hello1 {
+  color: rgb(84, 134, 135);
+  float: right;
+  font-family: 'Superclarendon', sans-serif;
+  font: bold;
+  font-size: 80pt;
+  grid-column-start: 2;
+  grid-column-end:   5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  position: relative;
+  justify-self: center;
+}
+
+
+#hello3 {
+  color: rgb(84, 134, 135);
+  font-family: 'Superclarendon';
+  font: small-caps;
+  font-size: 30pt;
+  grid-column-start: 2;
+  grid-column-end:   5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  position: relative;
+  top: 180px;
+  justify-self: center;
+}
+
+.link-bar {
+  grid-column-start: 2;
+  grid-column-end:   5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+body { 
+  min-height: 100vh; 
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 2%;
+  width: 100%;
+  right: 50px;
+}
+
+
+/* grid */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.container {
+  width: 1500px;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  position: relative;
+  bottom: 200px;
+  justify-self: center;
+  z-index: -1;
+}
+
+/* Resize images */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.cursor-container {
+  width: 50px;
+  position: fixed;
+  left: 20px;
+}
+
+.cursor-container img {
+  width: 100%;
+}
+
+
+
+
+
+
