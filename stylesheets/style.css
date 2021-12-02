@@ -121,6 +121,8 @@ button {
     top: -72px;
     font-size: 24px;
     position: relative;
+    display: flex;
+    justify-content: center;
   }
 
 .cyber {
@@ -143,7 +145,7 @@ button {
 
 #decorator {
     display: flex;
-    align-items: left;
+    align-items: flex-end;
     text-transform: uppercase;
     vertical-align: middle;
     color: #d9d343;
@@ -188,7 +190,7 @@ button {
     text-align: center;
     color: rgb(113, 125, 135);
     font-size: smaller;
-    width:100;
+    width:100%;
     }
 
 figure {
@@ -368,6 +370,10 @@ p {
     padding:3em 10%;
    }
 
+.project-link {
+  display: none;
+   }
+
 .primary-button {
     padding: 14px 18px;
     width: 198px;
@@ -382,7 +388,7 @@ p {
     transform: scale(1.1);
     color: black !important;
     background-color: rgba(0,0,0,0.0);
-    border:3px solid inset black;
+    border:3px solid black;
     letter-spacing: 6px;
     transition: all 350ms ease-in-out;
   }
@@ -414,6 +420,10 @@ p {
 .section-heading {
     margin-top: 10px;
     margin-bottom: 20px;
+   }
+
+.social-links {
+  display: none;
    }
 
 .title{
