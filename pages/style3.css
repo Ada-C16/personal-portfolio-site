@@ -1,0 +1,128 @@
+body {
+background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(https://uploads-ssl.webflow.com/6095faf01c4548593c813be6/6171eab7216b6c5ad2341c2d_3AC7825E-21BA-480C-8809-7F1554B229DD.PNG);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+}
+
+header {
+color: white;
+margin: 30px 20px 100px 150px;
+}
+
+article {
+color: white;
+margin-left:  150px;
+}
+
+section {
+display: flex;
+color: white;
+margin-right: 500px;
+margin-left:  150px;
+
+
+}
+
+footer {
+color: white;
+margin: 250px 500px 0px 150px;
+}
+
+ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+li {
+display:inline-block;
+
+}
+
+nav {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+div {
+padding-right: 30px;
+}
+
+.grid-3-columns {
+    display: grid;
+    grid-column-gap: 100px;
+}
+
+a {
+display:inline-block;
+color: white;
+text-align: justify;
+font-size: 24px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+word-spacing: 1px;
+text-decoration: none;
+}
+
+a:hover {
+color: #587e76;
+}
+
+i {
+font-size:20px;
+color:white;
+padding:.25em;
+}
+
+i:hover {
+color: #587e76;
+}
+
+h1 {
+color: white;
+text-align: justify;
+font-family: 'Barlow Condensed', sans-serif;
+font-size: 75px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+
+h2 {
+color: white;
+font-size:24px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+}
+
+p {
+color: white;
+text-align: left;
+font-size: 14px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 100;
+}
+
+h3 {
+    color: white;
+    text-align: justify;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    word-spacing: normal;
+
+}
+
+h3:hover {
+    color: #587e76;
+}
+
+h4 {
+color: white;
+text-align: justify;
+font-size: 12px;
+font-family: 'Barlow Condensed', sans-serif;
+font-weight: 100;
+
+}
