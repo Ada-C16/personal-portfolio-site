@@ -75,11 +75,16 @@ section {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    color: white;
+    color: rgb(23, 60, 104);
 }
 
 h1, .bio, .tech-info {
     padding: 30px;
+}
+
+.bio, .tech-info {
+    font-weight: 300;
+    background-color: whitesmoke;
 }
 
 .site-links ul {
