@@ -30,8 +30,13 @@ header {
     height: 100vh;
     color: white;
     font-size: 40px;
-
+    background-image: url("../images/IndexBG.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
+
 
 header nav {
     background-color: black;

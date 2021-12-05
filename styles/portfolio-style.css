@@ -1,7 +1,12 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
 article {
     padding: 10px;
     margin: 10px;
-    background: white;
+    background: whitesmoke;
 }
 
 body {
@@ -69,7 +74,7 @@ nav li a {
     text-decoration: none;
 }
 
-nav li a:hover {
+a:hover {
     color: gray;
     transition: all 1s ease-out;
     text-decoration: none;
@@ -77,6 +82,10 @@ nav li a:hover {
 
 section {
     height: 100vh;
+    background-image: url("../images/PortfolioBG.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .site-links ul {
