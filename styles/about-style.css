@@ -1,0 +1,99 @@
+.bio {
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.bio, .tech-info {
+    font-weight: 300;
+    background-color: rgba(211, 215, 216, 0.75);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    background-color: rgba(211, 215, 216);
+    height: 150px;
+}
+
+footer p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h1, .bio, .tech-info {
+    padding: 30px;
+}
+
+header {
+    background-color: rgb(2, 2, 15);
+    color: rgba(211, 215, 216);
+    font-size: 40px;
+
+}
+
+li {
+    width: 250px;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li a {
+    color: rgba(211, 215, 216);
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: gray;
+    transition: all 1s ease-out;
+    text-decoration: none;
+}
+
+p {
+    font-weight: 200;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../images/AboutBG.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(23, 60, 104);
+}
+
+.site-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.social {
+    margin: 10px;
+}
+
+.tech-info {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: center;
+}

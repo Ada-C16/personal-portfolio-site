@@ -4,10 +4,10 @@ Congratulations! You're submitting your assignment!
 ## Comprehension Questions
 Question | Answer
 :------------- | :-------------
-Did you have to resolve any issues when running the HTML Validator? If so, what were they? |
-Why is it important to consider and use semantic HTML? |
-How did you decide to structure your CSS? |
-What was the most challenging piece of this assignment? |
-Describe one area that you gained more clarity on when completing this assignment |
+Did you have to resolve any issues when running the HTML Validator? If so, what were they? | Yes, on my portfolio page the validator suggested that I add a header tag under the section tag.
+Why is it important to consider and use semantic HTML? | To make your web page as accessible as possible.  The overall concept of that makes sense, but I am worried I wasn't able to do that effectively.
+How did you decide to structure your CSS? | A separate CSS file for each page, contained in a styles folder.
+What was the most challenging piece of this assignment? | Honestly it was really difficult to just come up with idea of how I wanted my website to look.
+Describe one area that you gained more clarity on when completing this assignment | EVERYTHING, I don't feel particularly comfortable with HTML/CSS so this was a nice learning opportunity and I hope that I can push myself further on the next frontend project.
 **Optional** |
-Did you deploy to GitHub Pages? If so, what is the URL to your website? |
+Did you deploy to GitHub Pages? If so, what is the URL to your website? | No I did not.

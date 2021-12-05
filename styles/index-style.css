@@ -1,0 +1,94 @@
+a:hover {
+    color: rgb(92, 93, 95);
+    transition: all 1s ease-out;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    background-color: rgba(211, 215, 216);
+    height: 150px;
+}
+
+footer p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+header {
+    height: 100vh;
+    color: rgba(211, 215, 216);
+    font-size: 40px;
+    background-image: url("../images/IndexBG.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header nav {
+    background-color: rgb(2, 2, 15);
+}
+
+.hero-text {
+    margin-left: 40px;
+    margin-bottom: 200px;
+}
+
+.hero-text h1 {
+    font-weight: 700;
+}
+
+.hero-text p {
+    font-weight: 200;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+li {
+    width: 250px;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li a {
+    color: rgba(211, 215, 216);
+    text-decoration: none;
+}
+
+p {
+    font-weight: 200;
+}
+
+.site-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.social {
+    margin: 10px;
+}
