@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    background-color: whitesmoke;
+    height: 150px;
+}
+
+footer p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+header {
+    background-color: midnightblue;
+    color: white;
+    font-size: 40px;
+
+}
+
+header nav {
+    background-color: black;
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    width: 250px;
+    text-decoration: none;
+}
+
+p {
+    font-weight: 200;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: gray;
+    transition: all 1s ease-out;
+    text-decoration: none;
+}
+
+section {
+    height: 100vh;
+}
+
+.site-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.social {
+    margin: 10px;
+}
