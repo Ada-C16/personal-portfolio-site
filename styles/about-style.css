@@ -73,7 +73,7 @@ section {
     height: 100vh;
 }
 
-h1, .bio {
+h1, .bio, .tech-info {
     padding: 30px;
 }
 
@@ -86,3 +86,15 @@ h1, .bio {
     margin: 10px;
 }
 
+
+
+/* .tech-info {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.tech-list li {
+    width: 300px;
+} */
