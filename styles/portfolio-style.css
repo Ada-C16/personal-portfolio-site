@@ -1,12 +1,18 @@
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: gray;
+    transition: all 1s ease-out;
+    text-decoration: none;
 }
 
 article {
     padding: 10px;
     margin: 10px;
-    background: whitesmoke;
+    background-color: rgba(211, 215, 216, 0.75);
 }
 
 body {
@@ -21,7 +27,7 @@ body {
 }
 
 footer {
-    background-color: whitesmoke;
+    background-color: rgba(211, 215, 216);
     height: 150px;
 }
 
@@ -40,24 +46,13 @@ footer .socials {
 
 h1 {
     font-size: 90px;
-    margin: 0;
+    padding-left: 10px;
+    color: rgba(211, 215, 216);
 }
 
 header {
-    background-color: midnightblue;
-    color: white;
+    background-color: rgb(2, 2, 15);
     font-size: 40px;
-
-}
-
-header nav {
-    background-color: black;
-}
-
-
-nav {
-    display: flex;
-    justify-content: flex-end;
 }
 
 li {
@@ -65,19 +60,18 @@ li {
     text-decoration: none;
 }
 
-p {
-    font-weight: 200;
+nav {
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav li a {
-    color: white;
+    color: rgba(211, 215, 216);
     text-decoration: none;
 }
 
-a:hover {
-    color: gray;
-    transition: all 1s ease-out;
-    text-decoration: none;
+p {
+    font-weight: 200;
 }
 
 section {
@@ -91,6 +85,8 @@ section {
 .site-links ul {
     display: flex;
     list-style-type: none;
+    color: white;
+    text-decoration: none;
 }
 
 .social {
