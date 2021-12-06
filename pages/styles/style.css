@@ -1,0 +1,18 @@
+body {
+    font-family: fantasy;
+    /* background-image: url(https://i.imgur.com/4mgiq34.jpg); */
+    background-color: whitesmoke;
+    
+}
+
+li {
+    list-style: circle;
+    text-align: left;
+
+
+}
+
+h1 {
+    text-align: left;
+
+}
