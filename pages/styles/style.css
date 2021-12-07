@@ -13,6 +13,19 @@ body {
     justify-content: center;
 }
 
+.climbing-body {
+    justify-content: left;
+}
+
+.dark-mode-climbing-body {
+    background: linear-gradient( rgba(57, 57, 57, 0.75),rgba(57, 57, 57, 0.75)), url('../Images/climbing.jpg');
+}
+
+#section-with-dark-mode {
+    display:grid;
+    grid-template-columns: 100px 100px 1fr 100px 100px;
+}
+
 header {
     justify-content: center;
     display: flex;
@@ -24,6 +37,15 @@ header {
     width: 100vw;
     height: 70px;
     color: rgb(157, 108, 93)
+}
+
+.dark-mode-climbing-header {
+    background-color:rgb(92, 67, 62);
+    color:rgb(251, 229, 183);
+}
+
+.dark-mode-climbing-link {
+    color: rgb(251, 229, 183);
 }
 
 h5 {
@@ -44,6 +66,10 @@ a {
 
 a:visited {
     color: rgb(92, 67, 62);
+}
+
+.dark-mode-climbing-link:visited {
+    color:rgb(251, 229, 183);
 }
 
 .home-h2 {
@@ -70,9 +96,25 @@ footer {
     justify-self: center;
     text-align: center;
     padding-bottom: 20px;
+    width: 100vw;
 }
 
 ::selection {
     background:rgba(157, 108, 93, 0.5);
 }
+
+button {
+    color: rgb(92, 67, 62);
+    border-color: rgb(92, 67, 62);
+    border-radius: 8%;
+    border-width: 0.75px;
+    background-color:rgba(251, 229, 183, 0.5);
+}
+
+.mode-button {
+    height: 20px;
+    align-self: center;
+    margin: 2px;
+}
+
 
