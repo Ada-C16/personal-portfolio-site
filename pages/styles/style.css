@@ -44,10 +44,6 @@ header {
     color:rgb(251, 229, 183);
 }
 
-.dark-mode-climbing-link {
-    color: rgb(251, 229, 183);
-}
-
 h5 {
     text-align: center;
 }
@@ -62,10 +58,15 @@ nav {
 
 a {
     color: rgb(157, 108, 93);
+    padding: 4px;
 }
 
 a:visited {
     color: rgb(92, 67, 62);
+}
+
+.dark-mode-climbing-link {
+    color: rgb(251, 229, 183);
 }
 
 .dark-mode-climbing-link:visited {
