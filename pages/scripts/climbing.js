@@ -16,21 +16,21 @@ const darkMode = () => {
   body = document.querySelector("body");
   body.className = `${body.className} dark-mode-climbing-body`;
   header = document.querySelector("header");
-  header.className = "dark-mode-climbing-header";
+  header.className = `${header.className} dark-mode-climbing-header`;
   links = document.querySelectorAll("a");
   for (link of links) {
-    link.className = "dark-mode-climbing-link";
+    link.className = `${link.className} dark-mode-climbing-link`;
   }
 };
 
 const regularMode = () => {
   body = document.querySelector("body");
-  body.className = "home-body climbing-body";
+  body.classList.remove("dark-mode-climbing-body");
   header = document.querySelector("header");
-  header.className = null;
+  header.classList.remove("dark-mode-climbing-header");
   links = document.querySelectorAll("a");
   for (link of links) {
-    link.className = null;
+    link.classList.remove("dark-mode-climbing-link");
   }
 };
 
