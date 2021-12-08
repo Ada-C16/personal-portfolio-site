@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* All Pages */
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+html, 
+nav {
+    background-color: #2DC7FF;
+}
+
+footer {
+    padding: .1em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    bottom: 0px;
+}
+
+footer,
+#navbar,
+#nav-background-home {
+    background-color: #0081AF;
+    color: #EAD2AC;
+}
+
+header {
+    padding-top: 10vh;
+    padding-left: 1em;
+}
+
+/* Navbar */
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    position: fixed;
+    width: 95%;
+    border-radius: 0 25px 25px 0;
+    margin: 0;
+}
+
+#nav-background {
+    background: #2DC7FF;
+    padding-top: 8px;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+
+#navbar a {
+    color: #EAD2AC;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #2DC7FF;
+}
+
+#navbar li {
+    padding: 1em;
+    margin-right: 2em;
+}
+
+/* Home Page */
+
+#nav-background-home {
+    height: 50px;
+    width: 95%;
+    border-radius: 0 25px 25px 0;
+    margin: 8px 0 0 0;
+}
+
+#bubbles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20vh;
+}
+
+#bubbles-grid {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    justify-content: center;
+}
+
+.bubble {
+    width: 25%;
+    height: 25%;
+    background-color: #0081AF;
+    border-radius: 100% 100% 100% 100%;
+    border-color: #2DC7FF;
+    border-width: 20px;
+    border-style: solid;
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble a {
+    font-weight: 800;
+    font-size: larger;
+    text-decoration: none;
+    color: #2DC7FF;
+}
+
+.bubble a:hover {
+    color: #EAD2AC;
+}
+
+/* Interest Pages */
+
+#interest {
+    padding-bottom: 6vh;
+}
+
+.section-background,
+.section-background-left {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.section-background-left {
+    display: flex;
+    justify-content: right;
+    border-right-width: 0;
+}
+
+.interest-left,
+.interest-right {
+    background-color: #D6F4FF;
+    width: 80%;
+    border-color: #0081AF;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.interest-left {
+    display: flex;
+    justify-content: flex-end;
+    border-right-width: 0;
+    border-radius: 25px 0 0 25px;
+}
+
+.interest-right {
+    display: flex;
+    justify-content: flex-start;
+    border-left-width: 0;
+    border-radius: 0 25px 25px 0;
+}
+
+.interest-text {
+    flex-direction: column;
+    padding: 1em;
+}
+
+.interest-image {
+    max-height: 30vh;
+    width: auto;
+}
+
+/* Profile Page */
+
+#projects {
+    display: flex;
+    justify-content: center;
+}
+
+#projects-grid {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+    max-width: 95%;
+    padding-left: 3em;
+    padding-right: 3em;
+    justify-content: center;
+}
+
+.project-tile {
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    justify-content: end;
+    padding: 1em;
+    max-width: 320px;
+}
+
+.project-tile > a > img {
+    max-width: 320px;
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.project-tile > .project-box > h3, p {
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.project-box {
+    background-color: #D6F4FF;
+    max-width: 320px;
+    max-height: 100vh;
+    margin-bottom: 50px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    background-color: #2DC7FF;
+    border-radius: 25px 25px 25px 25px;
+    padding: .5em;
+    margin: 40px;
+    border-color: #0081AF;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.button-for-hover a {
+    color: black;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #EAD2AC;
+    display: flex;
+    justify-content: center;
+    background-color: #0081AF;
+    border-radius: 25px 25px 25px 25px;
+    padding: .5em;
+    margin: 40px;
+}
+
+.button a:hover {
+    color: #EAD2AC;
+}
+
+/* Media Queries */
+/* Max-width */
+
+@media (max-width: 1400px) {
+    #projects-grid {
+        display: grid;
+        grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    }
+
+    .project-tile {
+        padding: 1em 1em 0em 1em;
+    }
+
+    .interest-right,
+    .interest-left {
+        align-items: center;
+    }
+}
+
+@media (max-width: 800px) {
+    #projects-grid {
+        display: grid;
+        grid-template: 1fr 1fr 1fr 1fr/ 1fr ;
+    }
+    #bubbles-grid {
+        display: grid;
+        grid-template: 1fr 1fr 1fr / 1fr;
+    }
+
+    .bubble {
+        margin: 10px;
+    }
+
+    #bubbles {
+        padding-bottom: 5vh;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .interest-right,
+    .interest-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #image-left,
+    #image-right {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .interest-left-small {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+/* Smallest pixel width of a smartphone */
+@media (max-width: 320px){
+    /* Navbar being a little blurp when vw small */
+    /* #navbar {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 20%;
+        border-radius: 0 25px 25px 0;
+        padding-right: 1em;
+    } */
+    header {
+        padding-top: 170px;
+    }
+
+    #nav-background {
+        background: #2DC7FF;
+        position: fixed;
+        width: 100%;
+        /* height: 10vh; */
+    }
+
+    #navbar {
+        display: flex;
+        justify-content:space-evenly;
+    }
+
+}
+
+/* Media Queries */
+/* Max-height */
+
+@media (max-height: 500px) {
+    header {
+        padding-top: 50px;
+    }
+}
+
