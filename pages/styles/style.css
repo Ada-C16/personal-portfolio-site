@@ -1,7 +1,6 @@
 body {
     font-family: fantasy;
-    /* background-image: url(https://i.imgur.com/4mgiq34.jpg); */
-    background-color: whitesmoke;
+    background-color: papayawhip;
     
 }
 
@@ -15,4 +14,51 @@ li {
 h1 {
     text-align: left;
 
+}
+
+h4{
+
+    color: palevioletred
+}
+
+
+.Footer{
+
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #da45ff2f;
+    color: #fff;
+
+}
+
+.my-name{
+    color: palevioletred
+}
+.NoteWorthy-Projects{
+
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: palevioletred
+
+}
+.Projects{
+
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: papayawhip;
+    color: palevioletred
+    
+    
+}
+
+.upper-right-nav{
+
+    
+    display: inline-block;
+    justify-content: right;
+    padding: 5px;
+    color: palevioletred
 }
