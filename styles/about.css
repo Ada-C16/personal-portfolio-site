@@ -1,0 +1,204 @@
+body {
+  font-family: Raleway, sans-serif;
+  background-color: rgb(33, 37, 41);
+  color: whitesmoke;
+  margin: 0;
+}
+
+body a:visited {
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 110px;
+  background-color: rgb(245, 239, 215);
+  position: fixed;
+  /* background-color: whitesmoke */
+}
+
+header a:visited {
+  color: #312921;
+}
+
+a:hover {
+  font-size: 2rem;
+}
+
+header ul {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.55rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  list-style-type: none;
+  /* align-items: center;
+    height: 110px; */
+}
+
+li a {
+  text-decoration: none;
+}
+
+main {
+  padding-top: 90px;
+  margin-left: 100px;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: normal;
+}
+
+.section-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px 200px 0 100px;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: lighter;
+}
+
+.sub-title {
+  margin-top: 0;
+  font-weight: lighter;
+  font-size: 1.1rem;
+}
+
+main p {
+  font-size: 1.18rem;
+  font-weight: lighter;
+}
+
+.strong {
+  font-size: 1.3rem;
+}
+
+.text-align {
+  text-align: justify;
+}
+
+.strong img {
+  padding-right: 15px;
+}
+
+span {
+  font-size: 1.1rem;
+  margin-left: 30px;
+}
+
+/* professional section */
+
+section > h2 {
+  margin-top: 60px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  /* vertical-align: middle; */
+}
+
+.summary-image {
+  margin-right: 10px;
+  /* vertical-align: top; */
+  margin-bottom: 0;
+}
+.sub-para {
+  /* vertical-align: top; */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dateline {
+  margin-top: 25px;
+  font-size: 0.8rem;
+  margin-top: 0;
+  /* color: rgb(33, 150, 243, 0.4); */
+  background: rgb(15, 61, 101);
+  display: inline;
+  padding: 4px;
+  font-weight: normal;
+}
+
+.experience-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: row;
+  margin-right: 100px;
+  text-align: justify;
+}
+
+footer {
+  font-size: 1rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  justify-content: flex-end;
+  margin-left: 20px;
+}
+footer {
+  margin-top: 100px;
+  /* grid-column: */
+}
+
+/* #blur-layer {
+    background: rgba(198, 171, 148, 0.2);
+    /* background: rgba(255, 255, 255, 0.15); */
+/* height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0; left: 0; */
+
+/* }  */
+
+/* body {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1); 
+    font-family: Source Sans Pro;
+    background-image: url("/images/shubham-dhage-ssEVCJglheM-unsplash.jpeg");
+    background-size: cover; 
+    background-color: #584436;  
+    background: linear-gradient(-70deg, #584436, #3B2D21, #C6AB94, #3B2D21);
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB); 
+    animation: Gradient 15s ease infinite; 
+    height:100vh; 
+}  */
+
+/* @keyframes Gradient {
+    0%{
+        background-position: 0% 50%
+    }
+    50%{
+        background-position: 100% 50%
+    }
+    100%{
+        background-position: 0% 50%
+    }
+}  */

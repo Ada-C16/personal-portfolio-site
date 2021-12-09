@@ -1,0 +1,88 @@
+body {
+  background-image: url("/images/allef-vinicius-c9jTFfa7Njg-unsplash.jpeg");
+  background-size: cover;
+  margin: 0;
+}
+
+header {
+  font-family: Raleway, sans-serif;
+  width: 100%;
+  height: 110px;
+  background-color: rgb(49, 41, 33, 0.9);
+  /* background-color: rgb(33, 37, 41, .85); */
+  /* background-color: rgb(41, 38, 36); */
+
+  font-weight: bold;
+  text-decoration: none;
+  position: fixed;
+  text-decoration: none;
+  /* background-color: rgb(143, 122, 105); */
+  /* background-color: rgb(70, 65, 62) */
+  /* background-color: rgb(148, 128, 114) */
+  /* background-color: rgb(45, 28, 9); */
+}
+
+a,
+a:visited {
+  color: white;
+}
+
+/* a:active {
+    color: purple;
+    
+} */
+
+.nav-container a:hover {
+  font-family: Raleway, sans-serif;
+  font-size: 1.8rem;
+  color: #49520b;
+  /* color: rgb(255, 0, 0); */
+  /* color: rgb(121, 120, 119); */
+}
+
+.name:hover {
+  font-family: Raleway, sans-serif;
+  font-size: 3.7rem;
+  color: #49520b;
+  /* color: #363e08; */
+  /* color: rgb(255, 0, 0);     */
+  /* color: rgb(121, 120, 119); */
+  /* color: rgb(79, 77, 77); */
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-container {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.55rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 110px;
+}
+
+.name {
+  font-family: Raleway, sans-serif;
+  font-size: 3.3rem;
+  padding-top: 150px;
+  font-weight: 700;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+footer {
+  /* font-family: 'Be Vietnam Pro', sans-serif; */
+  font-family: Raleway, sans-serif;
+  font-size: 0.8rem;
+  color: #fff;
+  margin-left: 15px;
+}
