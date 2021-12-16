@@ -1,0 +1,43 @@
+body {
+    background:rgb(246,221,294);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #f2d2b5;
+    padding: 10px;
+    font-family: 'Readex Pro', sans-serif;
+    text-decoration:none;
+  }
+  .grid-spacing {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:left;
+
+  }
+  header{
+    background-color: rgb(193, 230, 237);
+    color: rgb(7, 7, 10);
+    border: 10px;
+    border-left: 600px;
+    border-top: 400px;
+    border-color: rgb(213, 211, 206);
+    padding: 10px;
+    margin: 10px; 
+    font-family:'Readex Pro', sans-serif;
+}
+
+  #footer{
+    display:flex;
+    justify-content:center;
+}
