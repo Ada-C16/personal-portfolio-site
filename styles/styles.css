@@ -1,0 +1,23 @@
+
+body {
+  
+  background-color:#ffc2cc ;
+}
+h1, #aboutMe, #portfolio, #intro{
+  text-align: center;
+  
+  color: white;
+  font-size: 50px;
+  font-family: "Lucida Handwriting", "Courier New";
+  padding: 50px;
+}
+h1 {
+  background: #c2f1ff;
+}
+#aboutMe {
+  background-color:#c2ffc5 ;
+  
+}
+#portfolio{
+  background-color:#f9ffc2 ;
+}

@@ -1,0 +1,11 @@
+body {
+  background-color:  #c2f1ff;
+}
+h1, #pinkBackground{
+  text-align: center;
+  background: #ffc2cc;
+  color: white;
+  font-size: 50px;
+  font-family: "Lucida Handwriting", "Courier New";
+  padding: 50px;
+}

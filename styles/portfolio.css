@@ -1,0 +1,25 @@
+body {
+  background-color:  #fff89a;
+}
+
+h1, ul{
+  text-align: center;
+  background: #8486f5;
+  color: white;
+  
+  font-family: "Lucida Handwriting", "Courier New";
+  padding: 50px;
+}
+
+h1 {
+  font-size: 60px;
+}
+a{
+  font-size: 40px;
+}
+section {
+  font-size: 30px;
+}
+ul {
+  list-style: none
+}
