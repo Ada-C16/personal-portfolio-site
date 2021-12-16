@@ -1,0 +1,57 @@
+body {
+    background:rgb(255,160,122);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #f2d2b5;
+    padding: 10px;
+    font-family: 'Readex Pro', sans-serif;
+    text-decoration:none;
+  }
+  .grid-spacing {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+
+.flex-container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+
+.flex-item {
+    margin: 50px;
+    margin-right: 100px;
+    padding: 30px;
+    width:auto;
+    flex: auto;
+  }
+  
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    color:tomato;
+    font-size: 22pt;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#footer{
+    display:flex;
+    justify-content:center;
+}
+
+img{
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+/* navigation bar on each of the three pages- portfolio, about and
+make sure the validator.w3.org, flexbox(list of projects in portfolio)
+and grid *
