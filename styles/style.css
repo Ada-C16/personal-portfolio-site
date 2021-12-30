@@ -7,7 +7,7 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-/* all similar content styling codes */
+
 section {
   padding: 100px 0;
 }
@@ -38,7 +38,7 @@ section .title {
 }
 
 
-/* navbar styling */
+/* navbar */
 .navbar {
   position: fixed;
   width: 100%;
@@ -79,12 +79,12 @@ section .title {
   color: rgb(235, 74, 106);
 }
 
-/* menu btn styling */
+/* menu btn */
 .menu-btn {
   display: none;
 }
 
-/* home section styling */
+/* home section */
 .home {
   display: flex;
   height: 100vh;
