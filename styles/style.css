@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* all similar content styling codes */
+section {
+  padding: 100px 0;
+}
+.max-width {
+  padding: 0 80px;
+  margin: auto;
+}
+
+.about .about-content,
+.portfolio .portfolio-content,
+.skills .skills-content,
+.contact .contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  line-height: 1.5;
+}
+section .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+ 
+}
+
+
+/* navbar styling */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 30px 0;
+  background: white;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  color: #000;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.navbar .logo a span {
+  color: rgb(235, 74, 106);
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  display: block;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  letter-spacing: 4px;
+}
+.navbar .menu li a:hover {
+  color: rgb(235, 74, 106);
+}
+
+/* menu btn styling */
+.menu-btn {
+  display: none;
+}
+
+/* home section styling */
+.home {
+  display: flex;
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  /* background-image: url(/assets/buildings.jpeg); */
+  background-image: url(https://source.unsplash.com/1600x900/?Architecture);
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+.home .max-width {
+  width: 100%;
+
+}
+
+.home .home-content .text-1 {
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  background: #000000d0;
+  margin-top: -3rem;
+}
+.home .home-content .text-2 {
+  margin: 5px 0;
+  position: absolute;
+  font-size: 75px;
+  color: rgb(235, 74, 106);
+  padding: 0 5px;
+  background: #fff;
+}
+
+
+
+/* about section */
+
+.about .about-content {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+}
+
+
+.about .about-content .right .text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+.about .about-content .right .text span {
+  color: rgb(235, 74, 106);
+}
+.about .about-content .right p {
+  text-align: justify;
+}
+
+/* portfolio section */
+.portfolio {
+  color: #fff;
+  background: #111;
+}
+
+.portfolio .portfolio-content .card {
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+}
+
+.portfolio .portfolio-content .card img {
+  height: 300px;
+  width: 400px;
+  border-radius: 6px;
+}
+
+
+.portfolio .portfolio-content .card .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.portfolio .portfolio-content .card a {
+  display: inline-block;
+  background: rgb(235, 74, 106);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid rgb(235, 74, 106);
+}
+
+
+/* contact section */
+.field,
+.contact .fields .field {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.textarea {
+  height: 80px;
+  width: 100%;
+}
+.name {
+  margin-right: 10px;
+}
+.field input,
+.textarea textarea {
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+}
+
+.button-area {
+  display: flex;
+  align-items: center;
+}
+button {
+  color: #fff;
+  display: block;
+  width: 160px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  flex-wrap: nowrap;
+  background: rgb(235, 74, 106);
+  border: 2px solid rgb(235, 74, 106);
+}
+
+/* footer section */
+footer {
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a {
+  color: rgb(235, 74, 106);
+  text-decoration: none;
+}
+footer span a:hover {
+  text-decoration: underline;
+}
