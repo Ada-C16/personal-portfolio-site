@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    background-color: #0a6b6b;
+}
+
+tr {
+    display: inline-block;
+}
+
+.link{
+    color: rgb(78, 14, 78);
+}
+
+
+/* * {
+    border: red 1px solid;
+} */
+
