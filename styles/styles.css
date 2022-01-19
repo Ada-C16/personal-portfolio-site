@@ -1,6 +1,6 @@
 
 body {
-  background-color: #ffc2cc ;
+  background-color: #FBD9D7ff ;
   animation: fadeInAnimation ease 3s;
   animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
@@ -28,7 +28,7 @@ a {
 
 #nav-bar{
 	padding: 30px;
-	background-color:#ffc2cc;
+	background-color:#ffc2;
 	text-align:center;
 }
 
