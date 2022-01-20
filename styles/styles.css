@@ -1,10 +1,16 @@
-
+/* --sea-green-crayola: #46fec6ff;
+--rgb(122, 222, 244)
+--carnation-pink: #ffabd9ff;
+--middle-yellow: #feea00ff;
+--white: #ffffffff;
+--black: #000000ff;   */
 body {
-  background-color: #FBD9D7ff ;
+  background-color: #ffabd9ff ;
   animation: fadeInAnimation ease 3s;
   animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    background-image: url();
 }
   
 @keyframes fadeInAnimation {
@@ -28,24 +34,78 @@ a {
 
 #nav-bar{
 	padding: 30px;
-	background-color:white;
 	text-align:center;
 }
+#nav-bar,footer{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7RmMyuza59u-ncofSOMZ1SPNjdhIM-U2STic4QcJqRAmWVy3OMY48PwAha1D5L8gv8eA&usqp=CAU);
 
+}
+footer{
+  position:absolute;
+}
 .nav-bar-words {
-  color: black;
-  font-size: 16px;
-  
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Arial, Helvetica, sans-serif;
   transition: color 0.5s ease;
 	text-decoration: none;
 	text-transform: uppercase;
+  font-weight: bold;
 }
 
 .nav-bar-words:hover {
-  color: #FBD9D7ff;
+  color: red;
+  font-size:32px;
 }
-/* intro */
+/* GIFS */
+#computer-1{
+  top:450px;
+  position:absolute;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  right:50px;
+  transform: rotate(25deg);
+}
+#computer-5{
+  top:500px;
+  position: absolute;
+  transform: rotate(-15deg);
+  width: 200px; 
+  height: 200px;
+  left:100px;
+  
 
+}
+#computer-2{
+  width: 300px; 
+  height: 300px;
+  top:450px;
+  left:60px;
+  position: absolute;
+  transform: rotate(-15deg);
+}
+#computer-4{
+  top:100px;
+  position:absolute;
+  width: 200px; 
+  height: 200px;
+  transform: rotate(-15deg);
+  right:50px;
+  background:transparent;
+  
+}
+#computer-3{
+  top:250px;
+  position: absolute;
+  transform: rotate(-15deg);
+  width: 200px; 
+  height: 200px;
+  left:100px;
+  
+
+}
 
 
 

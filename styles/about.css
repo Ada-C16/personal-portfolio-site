@@ -132,6 +132,8 @@ p{
 
 /* INTRODUCTION */
 #intro{
+  position:absolute;
+  top:210px;
   font-family: monospace;
   text-align: center;
   padding-right:400px;
@@ -149,10 +151,11 @@ a:hover{
 }
 #nav-bar{
 	padding: 30px;
-	background-image: url(https://static.wixstatic.com/media/368ecd_2a086de90a93499bbfb6f495080b642c~mv2.gif);
+	/* background-image: url(https://static.wixstatic.com/media/368ecd_2a086de90a93499bbfb6f495080b642c~mv2.gif); */
 	text-align:center;
   width:100%;
   height:100%;
+  
 }
 .nav-bar-words {
   color: white;
@@ -165,26 +168,43 @@ a:hover{
 	text-transform: uppercase;
   font-weight: bold;
 }
-
-#palm-tree-1{
-  position:absolute;
-  /* height: auto; 
-  width: auto;  */
-  width: 300px; 
-  height: 460px;
-}
-#palm-tree-2{
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  position:right;
-  /* height: auto; 
-  width: auto;  */
-  width: 300px; 
-  height: 460px;
-}
 .nav-bar-words:hover {
-  color: #feea00ff;
+  color: red;
+  font-size:32px;
 }
+/* OTHER ANIMATIONS ON PAGE */
+#palm-tree{
+  position:absolute;
+  right: 150px;
+  /* height: auto; 
+  width: auto;  */
+  width: 300px; 
+  height: 560px;
+}
+#sun{
+  width:300px;
+  height:300px;
+  position: absolute;
+  top:30px;
+}
+#about-me{
+  position:absolute;
+  top:70px;
+  right: 500px;
+  height:25%;
+}
+#dolphin{
+  top:100px;
+  position: absolute;
+}
+#birds{
+  position:absolute;
+  right:60px;
+  top:70px;
+  height:30%;
+  
+}
+
 footer{
   position: fixed;
    left: 0;
