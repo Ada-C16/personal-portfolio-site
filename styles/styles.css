@@ -153,6 +153,7 @@ h2 {
 #projects {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
 }
 
 .projects-item {
