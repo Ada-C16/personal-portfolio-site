@@ -1,0 +1,59 @@
+
+/* /* CSS HEX */
+/* --sea-green-crayola: #46fec6ff;
+--carnation-pink: #ffabd9ff;
+--middle-yellow: #feea00ff;
+--white: #ffffffff;
+--black: #000000ff;  */
+body {
+  background-color: white;
+  font-family: monospace;
+  animation: fadeInAnimation ease 3s;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+h2 {
+  text-align: center;
+  width: 500px;
+  background-color: white;
+  color:FBD9D7ff;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .50em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 5.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ffc2c3; }
+}
+
+.even-positions, .odd-positions{
+  background-color: #ffc2c3;
+  
+}
+.even-positions{
+  float:right;
+}
