@@ -23,7 +23,8 @@ body {
 
 #section-with-dark-mode {
     display:grid;
-    grid-template-columns: 100px 100px 1fr 100px 100px;
+    grid-template-columns: 155px 1fr 155px;
+    align-items: center;
 }
 
 header {
@@ -46,6 +47,7 @@ header {
 
 h5 {
     text-align: center;
+    padding-top:5px;
 }
 
 nav {
@@ -74,7 +76,8 @@ a:visited {
 }
 
 .home-h2 {
-    text-align: center;
+    text-align: left;
+    padding-left: 5pt;
 }
 
 .projects {
@@ -107,15 +110,31 @@ footer {
 button {
     color: rgb(92, 67, 62);
     border-color: rgb(92, 67, 62);
-    border-radius: 8%;
+    border-radius: 5px;
     border-width: 0.75px;
     background-color:rgba(251, 229, 183, 0.5);
 }
 
 .mode-button {
-    height: 20px;
+    height: 15px;
+    width: 70px;
     align-self: center;
     margin: 2px;
+    margin-top: 6pt;
+    font-size: 8pt;
 }
 
-
+/* trying to make things change when screen size adjusts  */
+@media (max-width:575px) {
+    #section-with-dark-mode {
+        display:grid;
+        grid-template-columns: 90px 1fr 90px;
+        align-items: center;
+    }
+    #dark-mode-button {
+        margin-top: 25px;
+    }
+    #regular-mode-button {
+        margin-top: 2pt;
+    }
+}
