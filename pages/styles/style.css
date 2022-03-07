@@ -81,13 +81,21 @@ a:visited {
 }
 
 .projects {
+    background-color: aqua;
     display: flex;
-    width: 95vw;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .project {
-    width: 45vw;
+    width: 250px;
+    height: 250px;
+    background-color: brown;
+    margin: 10px;
+    border-color:rgba(57, 57, 57, 0.75);
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 2fr 1fr 2fr 1fr;
 }
 
 img {
