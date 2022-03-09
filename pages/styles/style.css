@@ -87,42 +87,42 @@ a:visited {
 }
 
 .project {
-    width: 250px;
-    height: 300px;
-    margin: 10px;
+    width: 187pt;
+    height: 240pt;
+    margin: 10pt;
     border-color: rgb(92, 67, 62);
-    border-radius: 5px;
-    border-width: 1px;
+    border-radius: 5pt;
+    border-width: 1pt;
     border-style: solid;
     display: grid;
-    grid-template-rows: 120px 60px 4fr 1fr;
+    grid-template-rows: 100pt 40pt 4fr 1fr;
 }
 
 .project-image {
-    height: 120px;
-    width: 250px;
+    height: 100pt;
+    width: 187pt;
     object-fit: cover;
-    object-position: 60%;
+    object-position: 30%;
 }
 
 .project-title {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 2.5px;
+    margin-top: 8pt;
+    margin-bottom: 2.5pt;
     font-size: 16pt;
 }
 
 .project-description {
-    margin-top: 10px;
-    margin-bottom: 2.5px;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-top: 8pt;
+    margin-bottom: 2.5pt;
+    margin-right: 10pt;
+    margin-left: 10pt;
     text-align: center;
 }
 
 .project-link, .project-link:visited {
-    margin-top: 2.5px;
-    margin-bottom: 5px;
+    margin-top: 2.5pt;
+    margin-bottom: 5pt;
     border-width: 1pt;
     border-color:rgb(92, 67, 62);
     border-radius: 5px;
