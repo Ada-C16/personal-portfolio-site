@@ -81,7 +81,6 @@ a:visited {
 }
 
 .projects {
-    background-color: aqua;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -89,17 +88,51 @@ a:visited {
 
 .project {
     width: 250px;
-    height: 250px;
-    background-color: brown;
+    height: 300px;
     margin: 10px;
-    border-color:rgba(57, 57, 57, 0.75);
+    border-color: rgb(92, 67, 62);
     border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
     display: grid;
-    grid-template-rows: 2fr 1fr 2fr 1fr;
+    grid-template-rows: 120px 60px 4fr 1fr;
 }
 
-img {
-    height: 200px;
+.project-image {
+    height: 120px;
+    width: 250px;
+    object-fit: cover;
+    object-position: 60%;
+}
+
+.project-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 2.5px;
+    font-size: 16pt;
+}
+
+.project-description {
+    margin-top: 10px;
+    margin-bottom: 2.5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.project-link, .project-link:visited {
+    margin-top: 2.5px;
+    margin-bottom: 5px;
+    border-width: 1pt;
+    border-color:rgb(92, 67, 62);
+    border-radius: 5px;
+    border-style: solid;
+    width: 70pt;
+    height: 14pt;
+    text-align: center;
+    justify-self: center;
+    text-decoration: none;
+    background-color: rgb(251, 229, 183);
 }
 
 footer {
