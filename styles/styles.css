@@ -138,6 +138,11 @@ nav a {
     flex: auto;
 }
 
+#intern-at {
+    display: block;
+    padding-top: 30px;
+}
+
 /* PORTFOLIO */
 
 h2 {
