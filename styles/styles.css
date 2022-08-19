@@ -234,7 +234,7 @@ h2 {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #home-page-heading {
@@ -245,7 +245,7 @@ h2 {
 #home-page-self-intro {
     color: var(--background-color);
     text-align: center;
-    font-size: 3em;
+    font-size: 5em;
 }
 
 #image-credit {
@@ -294,7 +294,7 @@ footer a {
     }
 
     #home-page-self-intro {
-        font-size: 2em;
+        font-size: 5em;
     }
     /* NAV */
     nav {
