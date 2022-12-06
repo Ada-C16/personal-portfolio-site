@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 0.2fr 2.5fr 0.2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.1rem;
+}
+
+nav {
+    background-color: #CDDEEE;
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    font-size: 90%;
+    justify-content: left; 
+    padding-left: 30px;
+}
+
+#content1, #content2, #content3 {
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    padding: 40px;
+    color: white;
+    font-size: 130%;
+}
+
+#content1 {
+    background-color: #ff6b6b;
+    grid-column: 1 / 2;
+    font-size: 350%;
+}
+
+#content2 {
+    background-color: #ff5252;
+    grid-column: 2 / 3;
+    line-height: 1.5;
+}
+
+#content3 {
+    background-color: #ff3838;
+    grid-column: 3 / 4;
+    flex-direction: column;
+}
+
+/* Spaces out the bullet points in content3 */
+li {
+    margin: 10px 0;
+}
