@@ -1,0 +1,90 @@
+/* ************************* TAG ************************** */
+
+body {
+    font-family: 'Source Code Pro', monospace;
+
+    background-color: #356161;
+}
+
+h1 {
+    margin-top: 20px;
+}
+header{
+    text-align: center;
+    padding-top: 30px;
+}
+br{
+    color:azure;
+    line-height: 5px;
+    border: solid 10px;
+}
+
+/* ************************* CLASS & ID ************************** */
+/* header */
+
+.link{
+    color: rgb(78, 14, 78);
+}
+.link:hover{
+    color:aliceblue;
+}
+
+/* navigation */
+#outer-nav {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table-nav {
+	display: table;   
+}
+
+ul#nav-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#nav-list li {
+		display: inline;
+	}
+
+
+#outer-nav {
+	height: 84px;
+	
+}
+
+.table-nav {
+	display: table;   
+	margin: 0 auto;
+}
+
+ul#nav-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#nav-list li {
+		display: inline;
+	}
+
+/* Main */
+#name{
+    font-family: 'Dancing Script', cursive;
+
+}
+#filler{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+/* Contact Form  */
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 15px; 
+    border: 1px solid azure;
+    box-sizing: border-box; 
+    margin: 10px 10px 10px 10px ; 
+    resize: vertical;
+}

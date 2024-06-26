@@ -1,12 +1,62 @@
+<!-- portfolio.html must include information about several 
+projects you've completed at Ada (or elsewhere) 
+with links to the GitHub repo if available, descriptions, images, etc.
+
+Each page in this project must comply with the following layout requirements:
+Has the following tags: <header>, <footer>, and <nav>
+Inside of the <nav>, there are links to all of the other pages -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Portfolio</title>
+  <link href="/styles/style.css" rel="stylesheet">
 </head>
 <body>
-  
+  <header>
+    <h1 class="title">My Portfolio </h1>
+    <nav id="outer-nav"> 
+      <div class="table-nav"></div>
+      <ul id="nav-list">
+        <li><a class="link nav" href="index.html">Home</a></li>
+        <li><a class="link nav" href="about.html">About</a></li>
+        <li><a class="link nav" href="portfolio.html">Portfolio</a></li>
+        <li><a class="link nav" href="contact.html">Contact</a></li>
+      </ul>
+      </div>
+    </nav>
+  </header>
+
+    <main>
+      <h2>My Class Projects</h2>
+      <ul>
+        <li><a href="https://github.com/N-Washington/snowbug">Snowbug</a></li>
+          <p> ⛄First project, part of a little word guessing game</p>
+        <li><a href="https://github.com/N-Washington/swap-meet">Swap Meet</a></li>
+          <p>🛄 Introduction to Object Oriented Programming </p>
+        <li><a href="https://github.com/N-Washington/viewing-party">Viewing Party</a></li>
+          <p> 🎞️ Python project that helps pick amovie for movie night</p>
+      </ul>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+  <div id="filler">
+      <br>
+  </div>
+
+  <footer>&copy; 2021 Nic-Nac</footer>
 </body>
 </html>
