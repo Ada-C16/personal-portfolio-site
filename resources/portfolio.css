@@ -1,0 +1,38 @@
+.main-content {
+    margin-top: 2rem;
+    height: 120vh;
+    padding: 1rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding: 0 8rem;
+}
+
+p {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+h2 {
+    grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin: 1.2eem 0;
+}
+
+.port-pic {
+    width: 350px;
+    height: auto;
+    justify-content: left;
+          
+}
+
+.repo-link {
+    text-decoration: underline;
+}
+
+.repo-link:hover {
+    color: #a5dfc5;
+
+}
