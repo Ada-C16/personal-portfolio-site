@@ -1,0 +1,68 @@
+body {
+    font-family: fantasy;
+    background-color: papayawhip;
+    
+}
+
+li {
+    list-style: circle;
+    text-align: left;
+
+
+}
+
+h1 {
+    text-align: left;
+
+}
+
+h4{
+
+    color: palevioletred
+}
+
+ul{
+    display: flex;
+    justify-content: right;
+}
+
+.Footer{
+
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #da45ff2f;
+    color: #fff;
+
+}
+
+.my-name{
+    color: palevioletred
+}
+.NoteWorthy-Projects{
+
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: palevioletred
+
+}
+.Projects{
+
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: papayawhip;
+    color: palevioletred
+    
+    
+}
+
+.upper-right-nav{
+
+    
+    display: inline-block;
+    justify-content: right;
+    padding: 5px;
+    color: palevioletred
+}
