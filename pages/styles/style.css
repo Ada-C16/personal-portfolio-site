@@ -1,0 +1,181 @@
+body {
+    font-family: Arial;
+    display: grid;
+    height: 83vh;
+    grid-template-rows: 50px 1fr 50px;
+    margin-top: 70px;
+    color: rgb(92, 67, 62);
+}
+
+.home-body {
+    background: linear-gradient( rgba(128, 128, 128, 0.1),rgba(128, 128, 128, 0.1)), url('../Images/climbing.jpg');
+    color: white;
+    justify-content: center;
+}
+
+.climbing-body {
+    justify-content: left;
+}
+
+.dark-mode-climbing-body {
+    background: linear-gradient( rgba(57, 57, 57, 0.75),rgba(57, 57, 57, 0.75)), url('../Images/climbing.jpg');
+}
+
+#section-with-dark-mode {
+    display:grid;
+    grid-template-columns: 155px 1fr 155px;
+    align-items: center;
+}
+
+header {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    justify-self: center;
+    background-color: rgb(251, 229, 183);
+    width: 100vw;
+    height: 70px;
+    color: rgb(157, 108, 93)
+}
+
+.dark-mode-climbing-header {
+    background-color:rgb(92, 67, 62);
+    color:rgb(251, 229, 183);
+}
+
+h5 {
+    text-align: center;
+    padding-top:5px;
+}
+
+nav {
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    padding-bottom: 25px;
+}
+
+a {
+    color: rgb(157, 108, 93);
+    padding: 4px;
+}
+
+a:visited {
+    color: rgb(92, 67, 62);
+}
+
+.dark-mode-climbing-link {
+    color: rgb(251, 229, 183);
+}
+
+.dark-mode-climbing-link:visited {
+    color:rgb(251, 229, 183);
+}
+
+.home-h2 {
+    text-align: left;
+    padding-left: 5pt;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project {
+    width: 187pt;
+    height: 240pt;
+    margin: 10pt;
+    border-color: rgb(92, 67, 62);
+    border-radius: 5pt;
+    border-width: 1pt;
+    border-style: solid;
+    display: grid;
+    grid-template-rows: 100pt 40pt 4fr 1fr;
+}
+
+.project-image {
+    height: 100pt;
+    width: 187pt;
+    object-fit: cover;
+    object-position: 30%;
+}
+
+.project-title {
+    text-align: center;
+    margin-top: 8pt;
+    margin-bottom: 2.5pt;
+    font-size: 16pt;
+}
+
+.project-description {
+    margin-top: 8pt;
+    margin-bottom: 2.5pt;
+    margin-right: 10pt;
+    margin-left: 10pt;
+    text-align: center;
+}
+
+.project-link, .project-link:visited {
+    margin-top: 2.5pt;
+    margin-bottom: 5pt;
+    border-width: 1pt;
+    border-color:rgb(92, 67, 62);
+    border-radius: 5px;
+    border-style: solid;
+    width: 70pt;
+    height: 14pt;
+    text-align: center;
+    justify-self: center;
+    text-decoration: none;
+    background-color: rgb(251, 229, 183);
+}
+
+footer {
+    font-size: 10pt;
+    align-self: baseline;
+    justify-self: center;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 100vw;
+}
+
+::selection {
+    background:rgba(157, 108, 93, 0.5);
+}
+
+button {
+    color: rgb(92, 67, 62);
+    border-color: rgb(92, 67, 62);
+    border-radius: 5px;
+    border-width: 0.75px;
+    background-color:rgba(251, 229, 183, 0.5);
+}
+
+.mode-button {
+    height: 15px;
+    width: 70px;
+    align-self: center;
+    margin: 2px;
+    margin-top: 6pt;
+    font-size: 8pt;
+}
+
+/* trying to make things change when screen size adjusts  */
+@media (max-width:575px) {
+    #section-with-dark-mode {
+        display:grid;
+        grid-template-columns: 90px 1fr 90px;
+        align-items: center;
+    }
+    #dark-mode-button {
+        margin-top: 25px;
+    }
+    #regular-mode-button {
+        margin-top: 2pt;
+    }
+}
