@@ -1,0 +1,42 @@
+body {
+  background-color: indigo;
+  font-family: Bebas;
+}
+
+footer {
+  color: goldenrod;
+  margin-top: 15%;
+}
+
+header {
+  text-align: center;
+  text-decoration-color: goldenrod;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 3.5rem;
+  font-style: normal;
+}
+
+img {
+  width: 500px;
+  border-radius: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+li {
+  font-size: 2rem;
+  list-style-type: none;
+  text-align: center;
+}
+
+.list-color {
+  color: black;
+}
+
+.list-color:hover {
+  color: goldenrod;
+}

@@ -1,0 +1,36 @@
+a {
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+body {
+  background-color: indigo;
+  font-family: Bebas;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 2.5rem;
+  font-style: normal;
+}
+
+nav {
+  color: black;
+}
+
+.link-style {
+  color: black;
+  font-size: 1.75rem;
+}
+
+.link-style:hover {
+  color: goldenrod;
+}
+
+#home-link {
+  font-size: 1.25rem;
+}
+
+#about-link {
+  font-size: 1.25rem;
+}
