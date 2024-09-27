@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body class='grid-container'>
+  <div id="header-placeholder"></div>
+  <script>
+    $(function(){
+      $("#header-placeholder").load("header.html");
+    });
+  </script>
+  <div id='main-placeholder'>
+    <p><dfn>sophia le</dfn> is a life-long otaku, an ice cream fanatic, and a non-binary tree.</p>
+    <p>A <dfn>non-binary tree</dfn> is a gardener who is identified with non-binary gender and enthusiatic about data structures.</p>
+    <!-- <img src='gs://clothing-icons/001-shirt.svg'> -->
+    <!-- <img src='https://console.cloud.google.com/storage/browser/clothing-icons/001-shirt.svg'> -->
+    <!-- <img src='https://storage.googleapis.com/clothing-icons/001-shirt.svg'> -->
+  </div>
+  
+  <div id="footer-placeholder"></div>
+  <script>
+  $(function(){
+    $("#footer-placeholder").load("footer.html");
+  });
+  </script>
+
+</body>
+</html>

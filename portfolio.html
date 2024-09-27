@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body class='grid-container'>
+  <div id="header-placeholder"></div>
+  <script>
+    $(function(){
+      $("#header-placeholder").load("header.html");
+    });
+  </script>
+
+  <div class='column'>
+    <iframe src='https://the-non-binary-tree.github.io/2d-web-tic-tac-toe/' title='Ace Tic-Tac-Toe'></iframe>
+    <a href='https://github.com/the-non-binary-tree/2d-web-tic-tac-toe'>How 'Ace Tic-Tac-Toe' is built</a>
+  </div>
+
+  <div id="footer-placeholder"></div>
+  <script>
+  $(function(){
+    $("#footer-placeholder").load("footer.html");
+  });
+  </script>
+</body>
+</html>
