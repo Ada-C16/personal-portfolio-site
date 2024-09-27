@@ -1,0 +1,171 @@
+header #navigation {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    line-height: 80px;
+    /* border-bottom: 1px solid rgb(255 255 200); */
+    transition: 0.5s;
+    
+}
+
+#navigation ul {
+    display:inline-flex;
+}
+
+#navigation ul li {
+    list-style: none;
+   
+}
+
+#navigation ul li a {
+    text-decoration: none;
+    color: #242d52;
+    padding: 16px;
+    display:inline-block;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+#navigation .link-item {
+    color: #1f1f1f;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+#navigation ul li a:hover {
+    opacity: 0.6;
+}
+
+#introduction-area {
+    position:relative;
+}
+
+#introduction-area .introduction-cover {
+    background-image: url(https://wallpaperaccess.com/full/279547.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+}
+
+#introduction-area .introduction-cover .introduction-content-box {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translateY(-40%);
+    color: #fff;
+
+}
+
+#introduction-area .introduction-cover .introduction-content-box .hello {
+    font-size: 20px;
+    font-family: "Georgia", serif;
+}
+
+#introduction-area .introduction-cover .introduction-content-box .post {
+    font-size: 25px;
+    font-family: serif;
+}
+
+#introduction-area .introduction-cover .introduction-content-box .description {
+    font-size: 15px;
+    font-family: serif;
+}
+
+
+/* ABOUT */
+#about-me {
+    background-image: url(https://wallpaperaccess.com/full/279547.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    padding: 20px;
+   
+}
+.about-container {
+    margin: 10%;
+    width: 80%;
+    height: auto;
+    background-color: #f8f8f8;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.about-image {
+    height: 450px;
+    width: 400px;
+    background-image: url(https://cdn.dribbble.com/users/4596776/screenshots/14382770/untitled_artwork_2_copy.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-text {
+    height: auto;
+    width: 40%;
+    margin-left: 100px;
+
+}
+
+/* PORTFOLIO */
+
+#portfolio-area {
+    background-image: url(https://wallpaperaccess.com/full/279547.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+}
+.portfolio-section {
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%;
+    height:100%;
+}
+.img-blocks {
+   
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+
+.portfolio-section-h2 {
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.img-blocks img {
+    width: 350px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    height: 200px;
+    
+}
+
+.img-blocks div {
+    color:white;
+    text-align: center;
+    
+}
+
+h5 {
+    display: none;
+}
